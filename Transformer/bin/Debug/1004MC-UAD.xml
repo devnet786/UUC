@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VALUATION_RESPONSE MISMOVersionID="2.6GSE">
+  <REPORT USPAPReportDescription="1004Report" AppraiserFileIdentifier="13-01032" AppraiserAdditionalFileIdentifierName="Other File Number" AppraiserAdditionalFileIdentifier="Feb. 2013 -08" AppraisalSoftwareProductName="a la mode - TOTAL" AppraisalSoftwareProductVersionIdentifier="6.149" AppraiserReportSignedDate="2013-02-28" SupervisorReportSignedDate="" AppraisalFormType="FNM1004" _TitleDescription="Uniform Residential Appraisal Report" AppraisalFormVersionIdentifier="2005" AppraisalPurposeType="Purchase" OtherLoanPurposeDescription="" AppraisalPurposeTypeOtherDescription="">
+    <FORM AppraisalReportContentSequenceIdentifier="1" AppraisalReportContentType="AppraisalForm" AppraisalReportContentName="URAR [UAD Version 9/2011]" AppraisalReportContentIdentifier="UAD Version 9/2011" AppraisalReportContentIsPrimaryFormIndicator="Y" />
+    <FORM AppraisalReportContentSequenceIdentifier="2" AppraisalReportContentType="Addendum" AppraisalReportContentName="Market Conditions Addendum to the Appraisal Report [Form 1004MC][03/09]" AppraisalReportContentIdentifier="1004MC" AppraisalReportContentIsPrimaryFormIndicator="N">
+      <MARKET MarketTrendsAdverseFinancingIndicator="Y" MarketTrendsAdverseFinancingTrendType="Stable" SalesConcessionDescription="The observed trend in the area appears the amount of seller concessions is increasing. This appears to be in an effort to compete with the distressed sales, short sales, and REO properties in the market. Seller concessions typically range between 0 and 4%." MarketTrendsForeclosureActivityIndicator="N" NeighborhoodMarketabilityFactorsDescription="There are some REO properties in the market area; these properties are in less than average condition and do not directly compete with the subject in this market. There were 2 non arms-length transactions that are in comparable condition as the subject observed in the prior 12 months and 1 active listing. These were not included in the analysis as the subject is an arms length sale." DataSourceDescription="OCAR MLS and Okaloosa County Records" MarketTrendsReconciliationComment="The data shows a stable trend for inventory based on total settled and absorption rates. This is reflective of the market overall. The data also&#xA;shows a stable trend for the days on market of closed sales, and is supported by the active sales days on market. The median sale price as % of List Price is statically stable with variation of +/-2%. The trend for Median Comparable Sale Price has increased over the previous 12 months, with a stabilization over the past 6 months. Appraiser has marked stable as the market is stabilizing, but has made an adjustment on homes that sold over 6 months from the effective date of this appraisal.">
+        <MARKET_INVENTORY _Type="TotalSales" _MonthRangeType="Prior7To12Months" _Count="4" />
+        <MARKET_INVENTORY _Type="TotalSales" _MonthRangeType="Prior4To6Months" _Count="2" />
+        <MARKET_INVENTORY _Type="TotalSales" _MonthRangeType="Last3Months" _Count="3" />
+        <MARKET_INVENTORY _Type="TotalSales" _TrendType="Stable" />
+        <MARKET_INVENTORY _Type="AbsorptionRate" _MonthRangeType="Prior7To12Months" _Rate=".67" />
+        <MARKET_INVENTORY _Type="AbsorptionRate" _MonthRangeType="Prior4To6Months" _Rate=".67" />
+        <MARKET_INVENTORY _Type="AbsorptionRate" _MonthRangeType="Last3Months" _Rate="1.00" />
+        <MARKET_INVENTORY _Type="AbsorptionRate" _TrendType="Stable" />
+        <MARKET_INVENTORY _Type="TotalListings" _MonthRangeType="Prior7To12Months" _Count="na" />
+        <MARKET_INVENTORY _Type="TotalListings" _MonthRangeType="Prior4To6Months" _Count="na" />
+        <MARKET_INVENTORY _Type="TotalListings" _MonthRangeType="Last3Months" _Count="10" />
+        <MARKET_INVENTORY _Type="Supply" _MonthRangeType="Prior7To12Months" _Count="na" />
+        <MARKET_INVENTORY _Type="Supply" _MonthRangeType="Prior4To6Months" _Count="na" />
+        <MARKET_INVENTORY _Type="Supply" _MonthRangeType="Last3Months" _Count="10.0" />
+        <MARKET_INVENTORY _Type="MedianSalesPrice" _MonthRangeType="Prior7To12Months" _Amount="$2,860,000" />
+        <MARKET_INVENTORY _Type="MedianSalesPrice" _MonthRangeType="Prior4To6Months" _Amount="$3,021,333" />
+        <MARKET_INVENTORY _Type="MedianSalesPrice" _MonthRangeType="Last3Months" _Amount="$3,000,000" />
+        <MARKET_INVENTORY _Type="MedianSalesPrice" _TrendType="Stable" />
+        <MARKET_INVENTORY _Type="MedianSalesDOM" _MonthRangeType="Prior7To12Months" _Count="197" />
+        <MARKET_INVENTORY _Type="MedianSalesDOM" _MonthRangeType="Prior4To6Months" _Count="207" />
+        <MARKET_INVENTORY _Type="MedianSalesDOM" _MonthRangeType="Last3Months" _Count="189" />
+        <MARKET_INVENTORY _Type="MedianSalesDOM" _TrendType="Stable" />
+        <MARKET_INVENTORY _Type="MedianListPrice" _MonthRangeType="Prior7To12Months" _Amount="na" />
+        <MARKET_INVENTORY _Type="MedianListPrice" _MonthRangeType="Prior4To6Months" _Amount="na" />
+        <MARKET_INVENTORY _Type="MedianListPrice" _MonthRangeType="Last3Months" _Amount="$3,201,000" />
+        <MARKET_INVENTORY _Type="MedianListDOM" _MonthRangeType="Prior7To12Months" _Count="na" />
+        <MARKET_INVENTORY _Type="MedianListDOM" _MonthRangeType="Prior4To6Months" _Count="na" />
+        <MARKET_INVENTORY _Type="MedianListDOM" _MonthRangeType="Last3Months" _Count="119" />
+        <MARKET_INVENTORY _Type="MedianSalesToListRatio" _MonthRangeType="Prior7To12Months" _Rate="93" />
+        <MARKET_INVENTORY _Type="MedianSalesToListRatio" _MonthRangeType="Prior4To6Months" _Rate="95" />
+        <MARKET_INVENTORY _Type="MedianSalesToListRatio" _MonthRangeType="Last3Months" _Rate="94" />
+        <MARKET_INVENTORY _Type="MedianSalesToListRatio" _TrendType="Stable" />
+        <SUBJECT_PROJECT ProjectName="" NeighborhoodMarketabilityFactorsDescription="" MarketTrendsReconciliationComment="">
+          <MARKET_INVENTORY _Type="TotalSales" _MonthRangeType="Prior7To12Months" _Count="" />
+          <MARKET_INVENTORY _Type="TotalSales" _MonthRangeType="Prior4To6Months" _Count="" />
+          <MARKET_INVENTORY _Type="TotalSales" _MonthRangeType="Last3Months" _Count="" />
+          <MARKET_INVENTORY _Type="AbsorptionRate" _MonthRangeType="Prior7To12Months" _Rate="" />
+          <MARKET_INVENTORY _Type="AbsorptionRate" _MonthRangeType="Prior4To6Months" _Rate="" />
+          <MARKET_INVENTORY _Type="AbsorptionRate" _MonthRangeType="Last3Months" _Rate="" />
+          <MARKET_INVENTORY _Type="TotalListings" _MonthRangeType="Prior7To12Months" _Count="" />
+          <MARKET_INVENTORY _Type="TotalListings" _MonthRangeType="Prior4To6Months" _Count="" />
+          <MARKET_INVENTORY _Type="TotalListings" _MonthRangeType="Last3Months" _Count="" />
+          <MARKET_INVENTORY _Type="Supply" _MonthRangeType="Prior7To12Months" _Count="" />
+          <MARKET_INVENTORY _Type="Supply" _MonthRangeType="Prior4To6Months" _Count="" />
+          <MARKET_INVENTORY _Type="Supply" _MonthRangeType="Last3Months" _Count="" />
+        </SUBJECT_PROJECT>
+      </MARKET>
+    </FORM>
+    <EMBEDDED_FILE _Name="AppraisalReport" _EncodingType="Base64" MIMEType="application/pdf" _Type="PDF">
+      <DOCUMENT></DOCUMENT>
+    </EMBEDDED_FILE>
+  </REPORT>
+  <PARTIES>
+    <APPRAISER _Name="Ellen Walker" _CompanyName="Beach Appraisals" _StreetAddress="9123 Palm St, Suite 101" _City="Destin" _State="FL" _PostalCode="32541">
+      <CONTACT_DETAIL>
+        <CONTACT_POINT _Type="Phone" _Value="(800) 555-2160" />
+        <CONTACT_POINT _Type="Email" _Value="info@BeachAppraisals.com" />
+      </CONTACT_DETAIL>
+      <APPRAISER_LICENSE _Type="Certificate" _Identifier="RDZ123456" _ExpirationDate="2014-11-30" _State="FL" />
+      <INSPECTION AppraisalInspectionPropertyType="Subject" InspectionDate="2013-02-20" />
+    </APPRAISER>
+    <SUPERVISOR _Name="" _CompanyName="" _StreetAddress="" _City="" _State="" _PostalCode="">
+      <CONTACT_DETAIL>
+        <CONTACT_POINT _Type="Phone" _Value="" />
+        <CONTACT_POINT _Type="Email" _Value="" />
+      </CONTACT_DETAIL>
+      <APPRAISER_LICENSE _ExpirationDate="" _State="" />
+      <INSPECTION AppraisalInspectionPropertyType="Comparable" />
+    </SUPERVISOR>
+    <REVIEW_APPRAISER />
+    <REAL_ESTATE_AGENT>
+      <CONTACT_DETAIL />
+    </REAL_ESTATE_AGENT>
+    <LENDER _UnparsedName="Baytown Mortgage" AppraisalFormsUnparsedAddress="723 North Tyndall Parkway, Suite 101, Panama City, FL 32404" _StreetAddress="723 North Tyndall Parkway Suite 101" _StreetAddress2="Panama City, FL 32404">
+      <CONTACT_DETAIL _Name="Alice Gibbons">
+        <CONTACT_POINT _Type="Email" _Value="Info@BaytownMortgage.net" />
+      </CONTACT_DETAIL>
+    </LENDER>
+    <BORROWER _UnparsedName="Jones, Frank &amp; Sally">
+      <BORROWER_EXTENSION>
+        <BORROWER_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+          <BORROWER_EXTENSION_SECTION_DATA>
+            <BORROWER_NAME GSEBorrowerName="Jones, Frank &amp; Sally" />
+          </BORROWER_EXTENSION_SECTION_DATA>
+        </BORROWER_EXTENSION_SECTION>
+      </BORROWER_EXTENSION>
+    </BORROWER>
+    <MANAGEMENT_COMPANY_EXTENSION>
+      <MANAGEMENT_COMPANY_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+        <MANAGEMENT_COMPANY_EXTENSION_SECTION_DATA>
+          <MANAGEMENT_COMPANY GSEManagementCompanyName="No AMC" />
+        </MANAGEMENT_COMPANY_EXTENSION_SECTION_DATA>
+      </MANAGEMENT_COMPANY_EXTENSION_SECTION>
+    </MANAGEMENT_COMPANY_EXTENSION>
+  </PARTIES>
+  <PROPERTY _StreetAddress="1004MC" _City="Destin" _State="FL" _PostalCode="32541" _County="Okaloosa" _CurrentOccupancyType="OwnerOccupied" _RightsType="FeeSimple" _RightsTypeOtherDescription="">
+    <_IDENTIFICATION AssessorsParcelIdentifier="00-2S-22-0584-1020-0063" MapReferenceIdentifier="18880" CensusTractIdentifier="0233.03">
+      <PROPERTY_IDENTIFICATION_EXTENSION>
+        <PROPERTY_IDENTIFICATION_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+          <PROPERTY_IDENTIFICATION_EXTENSION_SECTION_DATA>
+            <PARCEL_IDENTIFIER GSEAssessorsParcelIdentifier="00-2S-22-0584-1020-0063" />
+          </PROPERTY_IDENTIFICATION_EXTENSION_SECTION_DATA>
+        </PROPERTY_IDENTIFICATION_EXTENSION_SECTION>
+      </PROPERTY_IDENTIFICATION_EXTENSION>
+    </_IDENTIFICATION>
+    <_LEGAL_DESCRIPTION _Type="Other" _TypeOtherDescription="LongLegal" _TextDescription="SHORES OF SUNNY BEACH LOT 7" />
+    <STRUCTURE LivingUnitCount="1" _AccessoryUnitExistsIndicator="N" StoriesCount="3" AttachmentType="Detached" BuildingStatusType="Existing" _DesignDescription="Villa" PropertyStructureBuiltYear="1995" TotalRoomCount="13" TotalBedroomCount="5" TotalBathroomCount="6.2" GrossLivingAreaSquareFeetCount="5452">
+      <EXTERIOR_FEATURE _Type="Foundation" _Description="Wood Pilings/Good" _ExistsIndicator="Y" />
+      <EXTERIOR_FEATURE _Type="Walls" _Description="Stucco/Good" _ExistsIndicator="Y" />
+      <EXTERIOR_FEATURE _Type="RoofSurface" _Description="Slate/Good" _ExistsIndicator="Y" />
+      <EXTERIOR_FEATURE _Type="GuttersAndDownspouts" _Description="Aluminum/Good" _ExistsIndicator="Y" />
+      <EXTERIOR_FEATURE _Type="WindowType" _Description="Thermal/Good" _ExistsIndicator="Y" />
+      <EXTERIOR_FEATURE _Type="WindowStormSash" _Description="None" _ExistsIndicator="Y" />
+      <EXTERIOR_FEATURE _Type="WindowScreens" _Description="None" _ExistsIndicator="Y" />
+      <FOUNDATION _Type="Crawlspace" _ExistsIndicator="Y" />
+      <FOUNDATION _Type="Basement" _ConditionDescription="Full" _ExistsIndicator="N">
+        <_CONDITION _Type="Infestation" _Comment="" />
+      </FOUNDATION>
+      <BASEMENT SquareFeetCount="0" _FinishedPercent="0" />
+      <INTERIOR_FEATURE _Type="Floors" _ConditionDescription="Hrd Wd\Crpt\Good" />
+      <INTERIOR_FEATURE _Type="Walls" _ConditionDescription="Drywall\Paint\Good" />
+      <INTERIOR_FEATURE _Type="TrimAndFinish" _ConditionDescription="Wood\Paint\Good" />
+      <INTERIOR_FEATURE _Type="BathroomFloors" _ConditionDescription="Slate Tile\Good" />
+      <INTERIOR_FEATURE _Type="BathroomWainscot" _ConditionDescription="Ceramic Tile\Good" />
+      <HEATING _Type="ForcedWarmAir" />
+      <HEATING _FuelDescription="Gas" />
+      <COOLING _CentralizedIndicator="Y" />
+      <KITCHEN_EQUIPMENT _Type="Refrigerator" _ExistsIndicator="Y" />
+      <KITCHEN_EQUIPMENT _Type="RangeOven" _ExistsIndicator="Y" />
+      <KITCHEN_EQUIPMENT _Type="Dishwasher" _ExistsIndicator="Y" />
+      <KITCHEN_EQUIPMENT _Type="Disposal" _ExistsIndicator="Y" />
+      <KITCHEN_EQUIPMENT _Type="Microwave" _ExistsIndicator="Y" />
+      <KITCHEN_EQUIPMENT _Type="Other" _TypeOtherDescription="" />
+      <ATTIC _ExistsIndicator="N" />
+      <AMENITY _Type="WoodStove" _Count="0" />
+      <AMENITY _Type="Fireplace" _ExistsIndicator="Y" _Count="2" />
+      <AMENITY _Type="Fence" _ExistsIndicator="Y" _DetailedDescription="Railing" />
+      <AMENITY _Type="Patio" _ExistsIndicator="Y" _DetailedDescription="Cov." />
+      <AMENITY _Type="Porch" _ExistsIndicator="Y" _DetailedDescription="Covered" />
+      <AMENITY _Type="Pool" _ExistsIndicator="N" _DetailedDescription="None" />
+      <AMENITY _Type="Other" _ExistsIndicator="Y" _TypeOtherDescription="Spa" />
+      <CAR_STORAGE _AttachmentType="Attached">
+        <CAR_STORAGE_LOCATION _Type="Driveway" _ExistsIndicator="Y" ParkingSpacesCount="2" />
+        <CAR_STORAGE_LOCATION _Type="Garage" _ExistsIndicator="Y" ParkingSpacesCount="2" />
+        <CAR_STORAGE_LOCATION _Type="Carport" _ExistsIndicator="Y" ParkingSpacesCount="2" />
+      </CAR_STORAGE>
+      <STRUCTURE_ANALYSIS EffectiveAgeYearsCount="10">
+        <STRUCTURE_ANALYSIS_RATING />
+        <STRUCTURE_ANALYSIS_EXTENSION>
+          <STRUCTURE_ANALYSIS_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <STRUCTURE_ANALYSIS_EXTENSION_SECTION_DATA>
+              <EFFECTIVE_AGE GSEEffectiveAgeDescription="10" />
+            </STRUCTURE_ANALYSIS_EXTENSION_SECTION_DATA>
+          </STRUCTURE_ANALYSIS_EXTENSION_SECTION>
+        </STRUCTURE_ANALYSIS_EXTENSION>
+      </STRUCTURE_ANALYSIS>
+      <CONDITION_DETAIL_EXTENSION>
+        <CONDITION_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+          <CONDITION_DETAIL_EXTENSION_SECTION_DATA>
+            <CONDITION_DETAIL _SequenceIdentifier="1" GSEImprovementAreaType="Kitchen" GSEImprovementDescriptionType="Updated" GSEEstimateYearOfImprovementType="OneToFiveYearsAgo" />
+            <CONDITION_DETAIL _SequenceIdentifier="2" GSEImprovementAreaType="Bathrooms" GSEImprovementDescriptionType="Updated" GSEEstimateYearOfImprovementType="OneToFiveYearsAgo" />
+          </CONDITION_DETAIL_EXTENSION_SECTION_DATA>
+        </CONDITION_DETAIL_EXTENSION_SECTION>
+      </CONDITION_DETAIL_EXTENSION>
+      <OVERALL_CONDITION_RATING_EXTENSION>
+        <OVERALL_CONDITION_RATING_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+          <OVERALL_CONDITION_RATING_EXTENSION_SECTION_DATA>
+            <OVERALL_CONDITION_RATING GSEUpdateLastFifteenYearIndicator="Y" />
+          </OVERALL_CONDITION_RATING_EXTENSION_SECTION_DATA>
+        </OVERALL_CONDITION_RATING_EXTENSION_SECTION>
+      </OVERALL_CONDITION_RATING_EXTENSION>
+      <STRUCTURE_EXTENSION>
+        <STRUCTURE_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+          <STRUCTURE_EXTENSION_SECTION_DATA>
+            <STRUCTURE_INFORMATION GSEYearBuiltEstimationIndicator="N" GSEStoriesCount="3" />
+          </STRUCTURE_EXTENSION_SECTION_DATA>
+        </STRUCTURE_EXTENSION_SECTION>
+      </STRUCTURE_EXTENSION>
+    </STRUCTURE>
+    <STRUCTURE>
+      <CAR_STORAGE _AttachmentType="BuiltIn" />
+    </STRUCTURE>
+    <_OFF_SITE_IMPROVEMENT _Type="Street" _Description="Macadam" _OwnershipType="Public" _ExistsIndicator="Y" />
+    <_OFF_SITE_IMPROVEMENT _Type="Street" _Description="Macadam" _OwnershipType="Private" _ExistsIndicator="N" />
+    <_OFF_SITE_IMPROVEMENT _Type="Alley" _Description="None" _OwnershipType="Public" _ExistsIndicator="N" />
+    <_OFF_SITE_IMPROVEMENT _Type="Alley" _Description="None" _OwnershipType="Private" _ExistsIndicator="N" />
+    <SITE _DimensionsDescription="66' x 303' x 68' x 299'" _AreaDescription="20,473 sf" _ZoningClassificationIdentifier="Residential - SBN" _ZoningClassificationDescription="Residential - Sunny Beach Neighborhood" _ZoningComplianceType="Legal" _ZoningComplianceDescription="" HighestBestUseIndicator="Y" HighestBestUseDescription="">
+      <SITE_FEATURE _Type="Shape" _Comment="Mostly Rectangular" />
+      <SITE_FEATURE _Type="View" _Comment="B;Wtr;" />
+      <SITE_FEATURE _Type="Driveway" _Comment="Concrete" />
+      <FLOOD_ZONE SpecialFloodHazardAreaIndicator="N" NFIPFloodZoneIdentifier="X" NFIPMapIdentifier="12091C0493H" NFIPMapPanelDate="2002-12-06">
+        <FLOOD_ZONE_EXTENSION>
+          <FLOOD_ZONE_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <FLOOD_ZONE_EXTENSION_SECTION_DATA>
+              <FLOOD_ZONE_INFORMATION GSEFEMASpecialFloodHazardAreaIndicator="N" GSENFIPFloodZoneIdentifier="X" GSEFEMAFloodMapIdentifier="12091C0493H" />
+            </FLOOD_ZONE_EXTENSION_SECTION_DATA>
+          </FLOOD_ZONE_EXTENSION_SECTION>
+        </FLOOD_ZONE_EXTENSION>
+      </FLOOD_ZONE>
+      <SITE_UTILITY _Type="Electricity" _PublicIndicator="Y" _NonPublicIndicator="N" _NonPublicDescription="" />
+      <SITE_UTILITY _Type="Gas" _PublicIndicator="Y" _NonPublicIndicator="N" _NonPublicDescription="" />
+      <SITE_UTILITY _Type="Water" _PublicIndicator="Y" _NonPublicIndicator="N" _NonPublicDescription="" />
+      <SITE_UTILITY _Type="SanitarySewer" _PublicIndicator="Y" _NonPublicIndicator="N" _NonPublicDescription="" />
+    </SITE>
+    <PROJECT _Name="" _ConversionDate="" _ContainsMultipleDwellingUnitsDataSourceDescription="" _CommonElementsStatusDescription="" _CommonElementsLeaseTermsDescription="" _CommonElementsDescription="">
+      <DEVELOPMENT_STAGE _TotalPhasesCount="" CompletedUnitsCount="" PlannedUnitsCount="" UnitsSoldCount="" UnitsRentedCount="" UnitsForSaleCount="" DataSourceDescription="" />
+      <_PER_UNIT_FEE _Amount="0" />
+    </PROJECT>
+    <NEIGHBORHOOD _Name="Shores of Sunny Beach" PropertyNeighborhoodLocationType="Suburban" _BuiltupRangeType="Over75Percent" _GrowthPaceType="Stable" _PropertyValueTrendType="Stable" _DemandSupplyType="InBalance" _TypicalMarketingTimeDurationType="OverSixMonths" _BoundaryAndCharacteristicsDescription="The subject is bound to the North by Emerald Coast Pkwy, South by The Gulf of Mexico, East by the eastern edge of Okaloosa County and to the West by Mathews Blvd" _Description="See attached addenda." _MarketConditionsDescription="See attached addenda.">
+      <_HOUSING _Type="SingleFamily" _LowPriceAmount="1000" _HighPriceAmount="4000" _PredominantPriceAmount="2000" _OldestYearsCount="40" _NewestYearsCount="1" _PredominantAgeYearsCount="18" />
+      <_PRESENT_LAND_USE _Type="SingleFamily" _Percent="55" />
+      <_PRESENT_LAND_USE _Type="TwoToFourFamily" _Percent="5" />
+      <_PRESENT_LAND_USE _Type="Apartment" _Percent="20" />
+      <_PRESENT_LAND_USE _Type="Commercial" _Percent="15" />
+      <_PRESENT_LAND_USE _Type="Other" _TypeOtherDescription="Other" _Percent="5" />
+      <NEIGHBORHOOD_EXTENSION>
+        <NEIGHBORHOOD_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+          <NEIGHBORHOOD_EXTENSION_SECTION_DATA>
+            <NEIGHBORHOOD_BOUNDARIES GSENeighborhoodBoundariesDescription="The subject is bound to the North by Emerald Coast Pkwy, South by The Gulf of Mexico, East by the eastern edge of Okaloosa County and to the West by Mathews Blvd" />
+          </NEIGHBORHOOD_EXTENSION_SECTION_DATA>
+        </NEIGHBORHOOD_EXTENSION_SECTION>
+      </NEIGHBORHOOD_EXTENSION>
+    </NEIGHBORHOOD>
+    <_TAX _YearIdentifier="2012" _TotalTaxAmount="23,661" _TotalSpecialTaxAmount="0">
+      <PROPERTY_TAX_EXTENSION>
+        <PROPERTY_TAX_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+          <PROPERTY_TAX_EXTENSION_SECTION_DATA>
+            <PROPERTY_TAX_AMOUNT GSEPropertyTaxTotalTaxAmount="23661" />
+          </PROPERTY_TAX_EXTENSION_SECTION_DATA>
+        </PROPERTY_TAX_EXTENSION_SECTION>
+      </PROPERTY_TAX_EXTENSION>
+    </_TAX>
+    <LISTING_HISTORY ListedWithinPreviousYearIndicator="Y" ListedWithinPreviousYearDescription="DOM 174;Subject was found on the OCAR MLS listed on 08/10/2012 for $3,400,000, price change to $3,200,000 on 11/25/2012, price change to $3,099,000 on 12/1/2012 and status was changed to pending sale on 1/19/2013." />
+    <PROPERTY_ANALYSIS _Type="AdditionalFeatures" _Comment="The subject has typical features and energy efficient items for the area." />
+    <PROPERTY_ANALYSIS _Type="QualityAndAppearance" _Comment="C2;Kitchen-updated-one to five years ago;Bathrooms-updated-one to five years ago;The subject has had the flooring replaced in the kitchen and baths ~2 years ago. All appliances in the kitchen were replaced less than 18 months ago. Carpet and hardwood throughout the house was replaced/installed ~7 years ago.  The subject has had an 11' x 11' spa installed in the past 12 months. Subject exhibits less than normal wear and tear on the other components of the house.  All these factors lead to a condition of C2 and an effective age of 10 years." />
+    <PROPERTY_ANALYSIS _Type="PhysicalDeficiency" _ExistsIndicator="N" _Comment="" />
+    <PROPERTY_ANALYSIS _Type="ConformsToNeighborhood" _ExistsIndicator="Y" _Comment="" />
+    <PROPERTY_ANALYSIS _Type="UtilitiesAndOffSiteImprovementsConformToNeighborhood" _ExistsIndicator="Y" _Comment="" />
+    <PROPERTY_ANALYSIS _Type="AdverseSiteConditions" _ExistsIndicator="N" _Comment="" />
+    <PROPERTY_ANALYSIS _Type="PropertyCondition" _Comment="The subject has had the flooring replaced in the kitchen and baths ~2 years ago. All appliances in the kitchen were replaced less than 18 months ago. Carpet and hardwood throughout the house was replaced/installed ~7 years ago.  The subject has had an 11' x 11' spa installed in the past 12 months. Subject exhibits less than normal wear and tear on the other components of the house.  All these factors lead to a condition of C2 and an effective age of 10 years." />
+    <_OWNER _Name="Alexer, Shane &amp; Susan">
+      <CONTACT_DETAIL />
+      <PROPERTY_OWNER_EXTENSION>
+        <PROPERTY_OWNER_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+          <PROPERTY_OWNER_EXTENSION_SECTION_DATA>
+            <PROPERTY_OWNER GSEPropertyOwnerName="Alexer, Shane &amp; Susan" />
+          </PROPERTY_OWNER_EXTENSION_SECTION_DATA>
+        </PROPERTY_OWNER_EXTENSION_SECTION>
+      </PROPERTY_OWNER_EXTENSION>
+    </_OWNER>
+    <SALES_CONTRACT _ReviewedIndicator="Y" _ReviewComment="The subject contract is a FL Uniform Contract Residential Contract of Sale of Real Estate dated 1/19/2013 for 3,099,000. Seller willing to pay up to 2% in closing cost. The contract was 12 pages long with 2 addenda." _Amount="3099000" _Date="2013-01-19" SellerIsOwnerIndicator="Y" DataSourceDescription="County Records" SalesConcessionIndicator="Y" SalesConcessionAmount="61980" SalesConcessionDescription="The subject contract is an As Is Florida Realtors/Florida Bar Contract dated 1/19/2013 for 3,099,000. Up to 2% of the closing cost will be paid by the seller, this is typical for the market. The contract was 12 pages long with 2 addenda.">
+      <SALES_CONTRACT_EXTENSION>
+        <SALES_CONTRACT_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+          <SALES_CONTRACT_EXTENSION_SECTION_DATA>
+            <SALES_TRANSACTION GSESaleType="ArmsLengthSale" />
+          </SALES_CONTRACT_EXTENSION_SECTION_DATA>
+        </SALES_CONTRACT_EXTENSION_SECTION>
+      </SALES_CONTRACT_EXTENSION>
+      <SALES_CONCESSION_EXTENSION>
+        <SALES_CONCESSION_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+          <SALES_CONCESSION_EXTENSION_SECTION_DATA>
+            <SALES_CONCESSION GSEUndefinedConcessionAmountIndicator="N" />
+          </SALES_CONCESSION_EXTENSION_SECTION_DATA>
+        </SALES_CONCESSION_EXTENSION_SECTION>
+      </SALES_CONCESSION_EXTENSION>
+    </SALES_CONTRACT>
+    <PROPERTY_EXTENSION>
+      <PROPERTY_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+        <PROPERTY_EXTENSION_SECTION_DATA>
+          <PROPERTY_TYPE GSE_PUDIndicator="N" />
+        </PROPERTY_EXTENSION_SECTION_DATA>
+      </PROPERTY_EXTENSION_SECTION>
+    </PROPERTY_EXTENSION>
+  </PROPERTY>
+  <VALUATION_METHODS _AdditionalDescription="Extraordinary Assumptions - The comparables used contain confidential information related to pricing, motivations, negotiations, concessions, fees, etc, that are not typically made known to those not a part of the agreement or closing. Even when provided an interview that confirms parts of a transaction, the values herein are based on the assumption that the data reported to the sources used is correct and reflects the specific marketable features. When more than one source is stated and there are differences in the levels/amounts of the features relevant for refinement, the source deemed most reliable and reflective of the comparable as of the date of that respective sale will be used for comparison.&#xA;&#xA;Signature Certification - The digital signatures in this report are duplicates of the original signature(s) and have not been altered or changed in any way.&#xA;&#xA;Intended User Certification - The Intended User of this appraisal report is the Client. The Intended Use is to obtain the market value of the property that is the subject of this appraisal for personal knowledge of the client, subject to the stated Scope of Work, purpose of the appraisal, reporting requirements of this appraisal report form, and Definition of Market Value. No additional Intended Users are identified by the appraiser.&#xA;&#xA;Software Certification - Any and all references in this (TOTAL) software regarding clients, intended users, intended use, definition of value, assignment conditions, relevant characteristics, scope or work performed, and/or any other conditions / assumptions relative to this assignment are superseded by data expressly entered by the appraiser, respectively.&#xA;&#xA;Definition/Source of Value - The purpose of this report is to properly relay the appraisal analysis, opinions, and conclusions in a manner that is objective, impartial, and independent. The value being developed is the most common representation of this arena participant - market value. By definition, market value is the most probable price a property or properties should bring in an open competitive market under conditions requisite to a fair impartial sale where the buyer and seller are both acting knowledgeably and in their own best interest and assuming the price is not affected by unique stimulus or external forces. Implicit in this definition is the consummation of a sale as of a specified date and the passing of title from seller to buyer under conditions whereby: 1. The buyer and seller are typically motivated, 2. Both parties are knowledgeable and acting in their own best interests, 3. a reasonable time is allowed for the property to be exposed to an open and competitive sale arena, 4. Payment is made in terms of US cash or equivalent or in terms of financial arrangements comparable thereto, and 5. The price represents the normal consideration for the property sold unaffected by special or creative financing or sale concessions granted by anyone associated with the sale. This definition is from regulations published by federal regulatory agencies pursuant to Title XI of the Financial Institutions Reform, Recovery, and Enforcement Act (FIRREA) of 1989 between July and August 1990, by the Federal Reserve System (FRS), by the National Credit Union Administration, (NCUA), by the Federal Deposit Insurance Corporation (FDIC), by the Office of Comptroller of the Currency (OCC), and by the Office of Thrift Supervision (OTS), being further referenced in regulations jointly published in 1994.&#xA;&#xA;Scope of Work - The scope of work for this appraisal was defined by the complexity of this appraisal assignment and the reporting requirements of this appraisal report form, including the following definition of market value, statement of assumptions and limiting conditions, and certifications. I, the appraiser (1) performed a complete visual inspection of the interior and exterior areas of the subject property, (2) inspected the neighborhood, (3) inspected each of the comparable sales from at least the street, (4) researched, verified, and analyzed data from reliable public and/or private sources, and (5) reported my analysis, opinions, and conclusions in this appraisal report. The supervising appraiser has inspected the property at a previous date and did not do another onsite inspection.">
+    <COST_ANALYSIS SiteEstimatedValueComment="" DataSourceDescription="" CostServiceQualityRatingDescription="" DataSourceEffectiveDate="" _Comment="" EstimatedRemainingEconomicLifeYearsCount="" SiteEstimatedValueAmount="" NewImprovementTotalCostAmount="" NewImprovementDepreciatedCostAmount="" SiteOtherImprovementsAsIsAmount="" ValueIndicatedByCostApproachAmount="">
+      <NEW_IMPROVEMENT _Type="Dwelling" SquareFeetCount="" PricePerSquareFootAmount="" _CostAmount="" />
+      <NEW_IMPROVEMENT _Type="Other" _TypeOtherDescription="" SquareFeetCount="" PricePerSquareFootAmount="" _CostAmount="" />
+      <NEW_IMPROVEMENT _Type="Additional" _SequenceIdentifier="1" _CostDescription="" _CostAmount="" />
+      <NEW_IMPROVEMENT _Type="Garage" SquareFeetCount="" PricePerSquareFootAmount="" _CostAmount="" />
+      <DEPRECIATION _PhysicalPercent="" _PhysicalAmount="" _FunctionalPercent="" _FunctionalAmount="" _ExteriorPercent="" _ExteriorAmount="" _TotalAmount="" />
+      <COST_ANALYSIS_EXTENSION>
+        <COST_ANALYSIS_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+          <COST_ANALYSIS_EXTENSION_SECTION_DATA>
+            <COST_APPROACH_DATA_SOURCE GSECostDataSourceEffectiveDateDescription="" />
+          </COST_ANALYSIS_EXTENSION_SECTION_DATA>
+        </COST_ANALYSIS_EXTENSION_SECTION>
+      </COST_ANALYSIS_EXTENSION>
+    </COST_ANALYSIS>
+    <SALES_COMPARISON _CurrentSalesAgreementAnalysisComment="Per a search of the Okaloosa County Property Appraiser online property records, the subject has had no transfers in the past 3 years and the comparables have had no transfers in the previous 12 months." _Comment="Sales recited are from subject market area and are in acceptable proximity to the subject. They are the most recent and most comparable homes found. All values affecting dissimilarities were adjusted according to market reaction.  Secondary market standards for net and gross adjustment percentages were met.  The indicated range of values brackets the value of the subject. The most weight was placed on comparables with the lowest gross % adjustments. The approximate weight given to each comparable is listed here: Comparable 1 - 31%, Comparable 2 - 26%, Comparable 3 - 22% and Comparable 4 - 21%.  No weight was given to comparables 5 and 6 as they are not closed sales and were added only to meet client specific requirements. An adjustment value of -6% was made on listing comparables and a -3% on pending comparables based on the median list/sales price ratio determined in the 1004MC form. Appraiser has a reconciled value as determined by the sales comparison approach of $3,100,000 in US Dollars." ValueIndicatedBySalesComparisonApproachAmount="3100000">
+      <RESEARCH ComparableListingsResearchedCount="10" ComparableListingsPriceRangeLowAmount="1999000" ComparableListingsPriceRangeHighAmount="4999000" ComparableSalesResearchedCount="9" ComparableSalesPriceRangeLowAmount="1900000" ComparableSalesPriceRangeHighAmount="4100000" SalesHistoryResearchedIndicator="Y" SalesHistoryNotResearchedComment="">
+        <SUBJECT _HasPriorSalesIndicator="N" DataSourceDescription="Okaloosa County Property Appraiser online record search" />
+        <COMPARABLE _HasPriorSalesIndicator="N" DataSourceDescription="Okaloosa County Property Appraiser online record search" />
+      </RESEARCH>
+      <COMPARABLE_SALE PropertySequenceIdentifier="0" PropertySalesAmount="3099000" SalesPricePerGrossLivingAreaAmount="568.42">
+        <LOCATION LatitudeNumber="30.3950481414795" LongitudeNumber="-86.4558258056641" PropertyStreetAddress="1004MC" PropertyStreetAddress2="Destin, FL 32541" />
+        <ROOM_ADJUSTMENT TotalRoomCount="13" TotalBedroomCount="5" TotalBathroomCount="6.2" />
+        <SALE_PRICE_ADJUSTMENT _Type="Location" _Description="B;WtrFr;Res" />
+        <SALE_PRICE_ADJUSTMENT _Type="PropertyRights" _Description="Fee Simple" />
+        <SALE_PRICE_ADJUSTMENT _Type="SiteArea" _Description="20,473 sf" />
+        <SALE_PRICE_ADJUSTMENT _Type="View" _Description="B;Wtr;" />
+        <SALE_PRICE_ADJUSTMENT _Type="DesignStyle" _Description="DT3;Villa" />
+        <SALE_PRICE_ADJUSTMENT _Type="Quality" _Description="Q2" />
+        <SALE_PRICE_ADJUSTMENT _Type="Age" _Description="17" />
+        <SALE_PRICE_ADJUSTMENT _Type="Condition" _Description="C2" />
+        <SALE_PRICE_ADJUSTMENT _Type="GrossLivingArea" _Description="5452" />
+        <SALE_PRICE_ADJUSTMENT _Type="BasementArea" _Description="0sf" />
+        <SALE_PRICE_ADJUSTMENT _Type="BasementFinish" _Description="" />
+        <SALE_PRICE_ADJUSTMENT _Type="FunctionalUtility" _Description="Typical/Good" />
+        <SALE_PRICE_ADJUSTMENT _Type="HeatingCooling" _Description="FWA/CAC" />
+        <SALE_PRICE_ADJUSTMENT _Type="EnergyEfficient" _Description="Typical" />
+        <SALE_PRICE_ADJUSTMENT _Type="CarStorage" _Description="2cp2dw" />
+        <SALE_PRICE_ADJUSTMENT _Type="PorchDeck" _Description="Cov Porch/Patio" />
+        <SALE_PRICE_ADJUSTMENT _Type="Other" _TypeOtherDescription="Fireplace" _Description="1 In, 1 Out" />
+        <SALE_PRICE_ADJUSTMENT _Type="Other" _TypeOtherDescription="Other Amenities" _Description="Spa" />
+        <SALE_PRICE_ADJUSTMENT _Type="Other" _TypeOtherDescription="" _Description="" />
+        <PRIOR_SALES PropertySalesDate="" PropertySalesAmount="" DataSourceDescription="Okaloosa Cnty Online Rcds" DataSourceEffectiveDate="2013-02-20">
+          <PRIOR_SALES_EXTENSION>
+            <PRIOR_SALES_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+              <PRIOR_SALES_EXTENSION_SECTION_DATA>
+                <PRIOR_SALE GSEPriorSaleDate="" GSEPriorSaleComment="Per a search of the Okaloosa County Property Appraiser online property records, the subject has had no transfers in the past 3 years and the comparables have had no transfers in the previous 12 months." />
+              </PRIOR_SALES_EXTENSION_SECTION_DATA>
+            </PRIOR_SALES_EXTENSION_SECTION>
+          </PRIOR_SALES_EXTENSION>
+        </PRIOR_SALES>
+        <COMPARISON_DETAIL_EXTENSION>
+          <COMPARISON_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_DETAIL GSEDaysOnMarketDescription="174" GSEOverallConditionType="C2" GSEQualityOfConstructionRatingType="Q2" GSEAgeEstimationIndicator="N" GSEBelowGradeTotalSquareFeetNumber="0" />
+            </COMPARISON_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_DETAIL_EXTENSION>
+        <COMPARISON_VIEW_OVERALL_RATING_EXTENSION>
+          <COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION_DATA>
+              <COMPARISON_VIEW_OVERALL_RATING GSEViewOverallRatingType="Beneficial" />
+            </COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION_DATA>
+          </COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION>
+        </COMPARISON_VIEW_OVERALL_RATING_EXTENSION>
+        <COMPARISON_VIEW_DETAIL_EXTENSION>
+          <COMPARISON_VIEW_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_VIEW_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_VIEW_DETAIL _SequenceIdentifier="1" GSEViewType="WaterView" />
+            </COMPARISON_VIEW_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_VIEW_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_VIEW_DETAIL_EXTENSION>
+        <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION>
+          <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION_DATA>
+              <COMPARISON_LOCATION_OVERALL_RATING GSEOverallLocationRatingType="Beneficial" />
+            </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION_DATA>
+          </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION>
+        </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION>
+        <COMPARISON_LOCATION_DETAIL_EXTENSION>
+          <COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_LOCATION_DETAIL _SequenceIdentifier="1" GSELocationType="WaterFront" />
+              <COMPARISON_LOCATION_DETAIL _SequenceIdentifier="2" GSELocationType="Residential" />
+            </COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_LOCATION_DETAIL_EXTENSION>
+      </COMPARABLE_SALE>
+      <COMPARABLE_SALE PropertySequenceIdentifier="1" PropertySalesAmount="2986000" SalesPricePerGrossLivingAreaAmount="521.85" DataSourceDescription="OCAR# 572631;DOM 212" DataSourceVerificationDescription="Okaloosa Cnty Appraiser Record" SalesPriceTotalAdjustmentPositiveIndicator="Y" SalePriceTotalAdjustmentAmount="33300" AdjustedSalesPriceAmount="3019300" SalesPriceTotalAdjustmentGrossPercent="2.8" SalePriceTotalAdjustmentNetPercent="1.1">
+        <LOCATION LatitudeNumber="30.3804601728916" LongitudeNumber="-86.4061188697815" PropertyStreetAddress="4702 Ocean Blvd" PropertyStreetAddress2="Destin, FL 32541" ProximityToSubjectDescription="0.37 miles E" PropertyCity="Destin" PropertyState="FL" PropertyPostalCode="32541" />
+        <ROOM_ADJUSTMENT TotalRoomCount="15" TotalBedroomCount="7" TotalBathroomCount="7.0" RoomAdjustmentAmount="+2500" />
+        <SALE_PRICE_ADJUSTMENT _Type="SalesConcessions" _Description="ArmLth" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="FinancingConcessions" _Description="Conv;68750" _Amount="0" />
+        <SALE_PRICE_ADJUSTMENT _Type="DateOfSale" _Description="s04/12;c01/12" _Amount="+55800" />
+        <SALE_PRICE_ADJUSTMENT _Type="Location" _Description="B;WtrFr;Res" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="PropertyRights" _Description="Fee Simple" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="SiteArea" _Description="20,604 sf" _Amount="0" />
+        <SALE_PRICE_ADJUSTMENT _Type="View" _Description="B;Wtr;" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="DesignStyle" _Description="Mediterranean" _Amount="-25000" />
+        <SALE_PRICE_ADJUSTMENT _Type="Quality" _Description="Q2" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Age" _Description="15" _Amount="0" />
+        <SALE_PRICE_ADJUSTMENT _Type="Condition" _Description="C2" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Other" _TypeOtherDescription="RoomAboveGradeLine1" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Other" _TypeOtherDescription="RoomAboveGradeLine2" _Amount="+2500" />
+        <SALE_PRICE_ADJUSTMENT _Type="GrossLivingArea" _Description="5722" _Amount="0" />
+        <SALE_PRICE_ADJUSTMENT _Type="BasementArea" _Description="0sf" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="BasementFinish" _Description="" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="FunctionalUtility" _Description="Typical/Good" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="HeatingCooling" _Description="FWA/CAC" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="EnergyEfficient" _Description="Typical" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="CarStorage" _Description="2 Car A.Garage" _Amount="0" />
+        <SALE_PRICE_ADJUSTMENT _Type="PorchDeck" _Description="Cov Porch/Patio" _Amount="" />
+        <OTHER_FEATURE_ADJUSTMENT PropertyFeatureSequenceIdentifier="1" PropertyFeatureDescription="2 Indoor" PropertyFeatureAdjustmentAmount="0" />
+        <OTHER_FEATURE_ADJUSTMENT PropertyFeatureSequenceIdentifier="2" PropertyFeatureDescription="Spa" PropertyFeatureAdjustmentAmount="" />
+        <OTHER_FEATURE_ADJUSTMENT PropertyFeatureSequenceIdentifier="3" PropertyFeatureDescription="" PropertyFeatureAdjustmentAmount="" />
+        <PRIOR_SALES PropertySalesDate="" PropertySalesAmount="" DataSourceDescription="Okaloosa Cnty Online Rcds" DataSourceEffectiveDate="2013-02-20">
+          <PRIOR_SALES_EXTENSION>
+            <PRIOR_SALES_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+              <PRIOR_SALES_EXTENSION_SECTION_DATA>
+                <PRIOR_SALE GSEPriorSaleDate="" />
+              </PRIOR_SALES_EXTENSION_SECTION_DATA>
+            </PRIOR_SALES_EXTENSION_SECTION>
+          </PRIOR_SALES_EXTENSION>
+        </PRIOR_SALES>
+        <COMPARISON_DETAIL_EXTENSION>
+          <COMPARISON_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_DETAIL GSEDataSourceDescription="OCAR# 572631" GSEDaysOnMarketDescription="212" GSESaleType="ArmsLengthSale" GSEFinancingType="Conventional" GSEFinancingTypeOtherDescription="" GSEConcessionAmount="68750" GSEListingStatusType="SettledSale" GSEQualityOfConstructionRatingType="Q2" GSEContractDateUnknownIndicator="N" GSEAgeEstimationIndicator="N" GSEOverallConditionType="C2" GSEBelowGradeTotalSquareFeetNumber="0" />
+            </COMPARISON_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_DETAIL_EXTENSION>
+        <COMPARISON_VIEW_OVERALL_RATING_EXTENSION>
+          <COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION_DATA>
+              <COMPARISON_VIEW_OVERALL_RATING GSEViewOverallRatingType="Beneficial" />
+            </COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION_DATA>
+          </COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION>
+        </COMPARISON_VIEW_OVERALL_RATING_EXTENSION>
+        <COMPARISON_VIEW_DETAIL_EXTENSION>
+          <COMPARISON_VIEW_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_VIEW_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_VIEW_DETAIL _SequenceIdentifier="1" GSEViewType="WaterView" />
+            </COMPARISON_VIEW_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_VIEW_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_VIEW_DETAIL_EXTENSION>
+        <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION>
+          <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION_DATA>
+              <COMPARISON_LOCATION_OVERALL_RATING GSEOverallLocationRatingType="Beneficial" />
+            </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION_DATA>
+          </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION>
+        </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION>
+        <COMPARISON_LOCATION_DETAIL_EXTENSION>
+          <COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_LOCATION_DETAIL _SequenceIdentifier="1" GSELocationType="WaterFront" />
+              <COMPARISON_LOCATION_DETAIL _SequenceIdentifier="2" GSELocationType="Residential" />
+            </COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_LOCATION_DETAIL_EXTENSION>
+        <COMPARISON_DATE_EXTENSION>
+          <COMPARISON_DATE_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_DATE_EXTENSION_SECTION_DATA>
+              <OFFERING_DISPOSITION GSEShortDateDescription="04/12" />
+              <OFFERING_DISPOSITION GSEShortDateDescription="01/12" />
+            </COMPARISON_DATE_EXTENSION_SECTION_DATA>
+          </COMPARISON_DATE_EXTENSION_SECTION>
+        </COMPARISON_DATE_EXTENSION>
+      </COMPARABLE_SALE>
+      <COMPARABLE_SALE PropertySequenceIdentifier="2" PropertySalesAmount="2500000" SalesPricePerGrossLivingAreaAmount="489.05" DataSourceDescription="OCAR# 58398;DOM 176" DataSourceVerificationDescription="Okaloosa Cnty Appraiser Record" SalesPriceTotalAdjustmentPositiveIndicator="Y" SalePriceTotalAdjustmentAmount="225293" AdjustedSalesPriceAmount="2725293" SalesPriceTotalAdjustmentGrossPercent="9.8" SalePriceTotalAdjustmentNetPercent="9.0">
+        <LOCATION LatitudeNumber="30.3813546895981" LongitudeNumber="-86.4137873053551" PropertyStreetAddress="4772 Ocean Blvd" PropertyStreetAddress2="Destin, FL 32541" ProximityToSubjectDescription="0.09 miles W" PropertyCity="Destin" PropertyState="FL" PropertyPostalCode="32541" />
+        <ROOM_ADJUSTMENT TotalRoomCount="13" TotalBedroomCount="5" TotalBathroomCount="6.1" RoomAdjustmentAmount="+10000" />
+        <SALE_PRICE_ADJUSTMENT _Type="SalesConcessions" _Description="ArmLth" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="FinancingConcessions" _Description="Conv;100000" _Amount="0" />
+        <SALE_PRICE_ADJUSTMENT _Type="DateOfSale" _Description="s02/13;c01/13" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Location" _Description="B;WtrFr;Res" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="PropertyRights" _Description="Fee Simple" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="SiteArea" _Description="16,117 sf" _Amount="+108900" />
+        <SALE_PRICE_ADJUSTMENT _Type="View" _Description="B;Wtr;" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="DesignStyle" _Description="Villa" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Quality" _Description="Q2" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Age" _Description="17" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Condition" _Description="C2" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Other" _TypeOtherDescription="RoomAboveGradeLine1" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Other" _TypeOtherDescription="RoomAboveGradeLine2" _Amount="+10000" />
+        <SALE_PRICE_ADJUSTMENT _Type="GrossLivingArea" _Description="5112" _Amount="+116393" />
+        <SALE_PRICE_ADJUSTMENT _Type="BasementArea" _Description="0sf" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="BasementFinish" _Description="" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="FunctionalUtility" _Description="Typical/Good" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="HeatingCooling" _Description="FWA/CAC" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="EnergyEfficient" _Description="Typical" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="CarStorage" _Description="2 Car D.Garage" _Amount="0" />
+        <SALE_PRICE_ADJUSTMENT _Type="PorchDeck" _Description="Cov Porch/Patio" _Amount="" />
+        <OTHER_FEATURE_ADJUSTMENT PropertyFeatureSequenceIdentifier="1" PropertyFeatureDescription="2 Indoor" PropertyFeatureAdjustmentAmount="0" />
+        <OTHER_FEATURE_ADJUSTMENT PropertyFeatureSequenceIdentifier="2" PropertyFeatureDescription="Pool" PropertyFeatureAdjustmentAmount="-10000" />
+        <OTHER_FEATURE_ADJUSTMENT PropertyFeatureSequenceIdentifier="3" PropertyFeatureDescription="" PropertyFeatureAdjustmentAmount="" />
+        <PRIOR_SALES PropertySalesDate="" PropertySalesAmount="" DataSourceDescription="Okaloosa Cnty Online Rcds" DataSourceEffectiveDate="2013-02-20">
+          <PRIOR_SALES_EXTENSION>
+            <PRIOR_SALES_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+              <PRIOR_SALES_EXTENSION_SECTION_DATA>
+                <PRIOR_SALE GSEPriorSaleDate="" />
+              </PRIOR_SALES_EXTENSION_SECTION_DATA>
+            </PRIOR_SALES_EXTENSION_SECTION>
+          </PRIOR_SALES_EXTENSION>
+        </PRIOR_SALES>
+        <COMPARISON_DETAIL_EXTENSION>
+          <COMPARISON_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_DETAIL GSEDataSourceDescription="OCAR# 58398" GSEDaysOnMarketDescription="176" GSESaleType="ArmsLengthSale" GSEFinancingType="Conventional" GSEFinancingTypeOtherDescription="" GSEConcessionAmount="100000" GSEListingStatusType="SettledSale" GSEQualityOfConstructionRatingType="Q2" GSEContractDateUnknownIndicator="N" GSEAgeEstimationIndicator="N" GSEOverallConditionType="C2" GSEBelowGradeTotalSquareFeetNumber="0" />
+            </COMPARISON_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_DETAIL_EXTENSION>
+        <COMPARISON_VIEW_OVERALL_RATING_EXTENSION>
+          <COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION_DATA>
+              <COMPARISON_VIEW_OVERALL_RATING GSEViewOverallRatingType="Beneficial" />
+            </COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION_DATA>
+          </COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION>
+        </COMPARISON_VIEW_OVERALL_RATING_EXTENSION>
+        <COMPARISON_VIEW_DETAIL_EXTENSION>
+          <COMPARISON_VIEW_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_VIEW_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_VIEW_DETAIL _SequenceIdentifier="1" GSEViewType="WaterView" />
+            </COMPARISON_VIEW_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_VIEW_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_VIEW_DETAIL_EXTENSION>
+        <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION>
+          <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION_DATA>
+              <COMPARISON_LOCATION_OVERALL_RATING GSEOverallLocationRatingType="Beneficial" />
+            </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION_DATA>
+          </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION>
+        </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION>
+        <COMPARISON_LOCATION_DETAIL_EXTENSION>
+          <COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_LOCATION_DETAIL _SequenceIdentifier="1" GSELocationType="WaterFront" />
+              <COMPARISON_LOCATION_DETAIL _SequenceIdentifier="2" GSELocationType="Residential" />
+            </COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_LOCATION_DETAIL_EXTENSION>
+        <COMPARISON_DATE_EXTENSION>
+          <COMPARISON_DATE_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_DATE_EXTENSION_SECTION_DATA>
+              <OFFERING_DISPOSITION GSEShortDateDescription="02/13" />
+              <OFFERING_DISPOSITION GSEShortDateDescription="01/13" />
+            </COMPARISON_DATE_EXTENSION_SECTION_DATA>
+          </COMPARISON_DATE_EXTENSION_SECTION>
+        </COMPARISON_DATE_EXTENSION>
+      </COMPARABLE_SALE>
+      <COMPARABLE_SALE PropertySequenceIdentifier="3" PropertySalesAmount="3750000" SalesPricePerGrossLivingAreaAmount="605.52" DataSourceDescription="OCAR#582584;DOM 123" DataSourceVerificationDescription="Okaloosa Cnty Appraiser Record" SalesPriceTotalAdjustmentPositiveIndicator="N" SalePriceTotalAdjustmentAmount="-303084" AdjustedSalesPriceAmount="3446916" SalesPriceTotalAdjustmentGrossPercent="10.8" SalePriceTotalAdjustmentNetPercent="8.1">
+        <LOCATION LatitudeNumber="30.3797283172607" LongitudeNumber="-86.401252746582" PropertyStreetAddress="3462 Scenic Highway 98" PropertyStreetAddress2="Destin, FL 32541" ProximityToSubjectDescription="0.67 miles E" PropertyCity="Destin" PropertyState="FL" PropertyPostalCode="32541" />
+        <ROOM_ADJUSTMENT TotalRoomCount="14" TotalBedroomCount="7" TotalBathroomCount="7.1" RoomAdjustmentAmount="-7500" />
+        <SALE_PRICE_ADJUSTMENT _Type="SalesConcessions" _Description="ArmLth" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="FinancingConcessions" _Description="Conv;75000" _Amount="0" />
+        <SALE_PRICE_ADJUSTMENT _Type="DateOfSale" _Description="s07/12;c05/12" _Amount="+51000" />
+        <SALE_PRICE_ADJUSTMENT _Type="Location" _Description="B;WtrFr;Res" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="PropertyRights" _Description="Fee Simple" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="SiteArea" _Description="20777 sf" _Amount="0" />
+        <SALE_PRICE_ADJUSTMENT _Type="View" _Description="B;Wtr;" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="DesignStyle" _Description="Villa" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Quality" _Description="Q2" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Age" _Description="17" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Condition" _Description="C2" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Other" _TypeOtherDescription="RoomAboveGradeLine1" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="Other" _TypeOtherDescription="RoomAboveGradeLine2" _Amount="-7500" />
+        <SALE_PRICE_ADJUSTMENT _Type="GrossLivingArea" _Description="6193" _Amount="-314084" />
+        <SALE_PRICE_ADJUSTMENT _Type="BasementArea" _Description="0sf" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="BasementFinish" _Description="" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="FunctionalUtility" _Description="Typical/Good" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="HeatingCooling" _Description="FWA/CAC" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="EnergyEfficient" _Description="Typical" _Amount="" />
+        <SALE_PRICE_ADJUSTMENT _Type="CarStorage" _Description="3 Car A.Garage" _Amount="-12500" />
+        <SALE_PRICE_ADJUSTMENT _Type="PorchDeck" _Description="Cov Porch/Patio" _Amount="" />
+        <OTHER_FEATURE_ADJUSTMENT PropertyFeatureSequenceIdentifier="1" PropertyFeatureDescription="1 In, 1 Out" PropertyFeatureAdjustmentAmount="" />
+        <OTHER_FEATURE_ADJUSTMENT PropertyFeatureSequenceIdentifier="2" PropertyFeatureDescription="Pool &amp; Spa" PropertyFeatureAdjustmentAmount="-20000" />
+        <OTHER_FEATURE_ADJUSTMENT PropertyFeatureSequenceIdentifier="3" PropertyFeatureDescription="" PropertyFeatureAdjustmentAmount="" />
+        <PRIOR_SALES PropertySalesDate="" PropertySalesAmount="" DataSourceDescription="Okaloosa Cnty Online Rcds" DataSourceEffectiveDate="2013-02-20">
+          <PRIOR_SALES_EXTENSION>
+            <PRIOR_SALES_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+              <PRIOR_SALES_EXTENSION_SECTION_DATA>
+                <PRIOR_SALE GSEPriorSaleDate="" />
+              </PRIOR_SALES_EXTENSION_SECTION_DATA>
+            </PRIOR_SALES_EXTENSION_SECTION>
+          </PRIOR_SALES_EXTENSION>
+        </PRIOR_SALES>
+        <COMPARISON_DETAIL_EXTENSION>
+          <COMPARISON_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_DETAIL GSEDataSourceDescription="OCAR#582584" GSEDaysOnMarketDescription="123" GSESaleType="ArmsLengthSale" GSEFinancingType="Conventional" GSEFinancingTypeOtherDescription="" GSEConcessionAmount="75000" GSEListingStatusType="SettledSale" GSEQualityOfConstructionRatingType="Q2" GSEContractDateUnknownIndicator="N" GSEAgeEstimationIndicator="N" GSEOverallConditionType="C2" GSEBelowGradeTotalSquareFeetNumber="0" />
+            </COMPARISON_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_DETAIL_EXTENSION>
+        <COMPARISON_VIEW_OVERALL_RATING_EXTENSION>
+          <COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION_DATA>
+              <COMPARISON_VIEW_OVERALL_RATING GSEViewOverallRatingType="Beneficial" />
+            </COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION_DATA>
+          </COMPARISON_VIEW_OVERALL_RATING_EXTENSION_SECTION>
+        </COMPARISON_VIEW_OVERALL_RATING_EXTENSION>
+        <COMPARISON_VIEW_DETAIL_EXTENSION>
+          <COMPARISON_VIEW_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_VIEW_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_VIEW_DETAIL _SequenceIdentifier="1" GSEViewType="WaterView" />
+            </COMPARISON_VIEW_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_VIEW_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_VIEW_DETAIL_EXTENSION>
+        <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION>
+          <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION_DATA>
+              <COMPARISON_LOCATION_OVERALL_RATING GSEOverallLocationRatingType="Beneficial" />
+            </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION_DATA>
+          </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION_SECTION>
+        </COMPARISON_LOCATION_OVERALL_RATING_EXTENSION>
+        <COMPARISON_LOCATION_DETAIL_EXTENSION>
+          <COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION_DATA>
+              <COMPARISON_LOCATION_DETAIL _SequenceIdentifier="1" GSELocationType="WaterFront" />
+              <COMPARISON_LOCATION_DETAIL _SequenceIdentifier="2" GSELocationType="Residential" />
+            </COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION_DATA>
+          </COMPARISON_LOCATION_DETAIL_EXTENSION_SECTION>
+        </COMPARISON_LOCATION_DETAIL_EXTENSION>
+        <COMPARISON_DATE_EXTENSION>
+          <COMPARISON_DATE_EXTENSION_SECTION ExtensionSectionOrganizationName="UNIFORM APPRAISAL DATASET">
+            <COMPARISON_DATE_EXTENSION_SECTION_DATA>
+              <OFFERING_DISPOSITION GSEShortDateDescription="07/12" />
+              <OFFERING_DISPOSITION GSEShortDateDescription="05/12" />
+            </COMPARISON_DATE_EXTENSION_SECTION_DATA>
+          </COMPARISON_DATE_EXTENSION_SECTION>
+        </COMPARISON_DATE_EXTENSION>
+      </COMPARABLE_SALE>
+    </SALES_COMPARISON>
+    <INCOME_ANALYSIS ValueIndicatedByIncomeApproachAmount="" EstimatedMarketMonthlyRentAmount="" GrossRentMultiplierFactor="" _Comment="" />
+  </VALUATION_METHODS>
+  <VALUATION PropertyAppraisedValueAmount="3100000" AppraisalEffectiveDate="2013-02-20">
+    <_RECONCILIATION _SummaryComment="Market actions of buyers and sellers are best analyzed by the Sales Comparison Approach.  The Cost Approach was not developed due to the age of the property. The Income Approach was not developed as the area is composed primarily of owner occupied properties." _ConditionsComment="">
+      <_CONDITION_OF_APPRAISAL _Type="AsIs" />
+    </_RECONCILIATION>
+  </VALUATION>
+</VALUATION_RESPONSE>

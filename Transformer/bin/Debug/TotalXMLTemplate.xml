@@ -1,0 +1,1906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+	<xsl:output method="xml" indent="yes"/>
+
+	<xsl:template match="@* | node()">
+		<xsl:copy>
+			<xsl:apply-templates select="@* | node()"/>
+
+			<REPORT VERSION="1.30" SOURCE="a la mode - TOTAL" SOURCEVERSION="6.91" FILENUM="13-01032" DESCRIPTION="1004MC" MAJORFORM="1004UAD">
+				<TRACKING>
+					<PROJ2000ID>8888888888-050113111554-6652438211</PROJ2000ID>
+				</TRACKING>
+				<ORDER>
+					<IDENTIFICATION>
+						<FNMA_FILENUMBER>Path="/VALUATION_RESPONSE/REPORT/@AppraiserFileIdenfier"</FNMA_FILENUMBER>
+						<CLIENT_FILE_NO/>
+						<OTHERFILENUMBER>Path="/VALUATION_RESPONSE/REPORT/@AppraiserAdditionalFileIdentifier"</OTHERFILENUMBER>
+						<ORDER_NO/>
+						<LENDERCASENUMBER/>
+						<FHA_CASENUMBER/>
+						<REQUEST_DATE/>
+						<DESCRIP>1004MC</DESCRIP>
+						<REQUEST_NOTES/>
+						<PRIORITY_CODE/>
+						<APPRDATE>Path="/VALUATION_RESPONSE/VALUATION/@AppraisalEffectiveDate"</APPRDATE>
+						<DUE_DATE/>
+						<PRELIM_NEEDED/>
+						<PRELIM_VALUE/>
+						<BILL_DATE/>
+						<BILL_DUE_DATE/>
+						<APPRSTARTDATE/>
+						<APPRDLVRDATE/>
+						<DELIVEREDDATE>Path="/VALUATION_RESPONSE/REPORT/@AppraiserReportSignedDate"</DELIVEREDDATE>
+						<CLIENTREVISED_NOTES/>
+						<EXCEPTION_NOTES/>
+					</IDENTIFICATION>
+					<LOCATION>
+						<SUBPROPADDRESS>Path="/VALUATION_RESPONSE/PROPERTY/@_StreetAddress"</SUBPROPADDRESS>
+						<SUBLEGALDESCRIP>Path="/VALUATION_RESPONSE/PROPERTY/_LEGAL_DESCRIPTION/@_TextDescription"</SUBLEGALDESCRIP>
+						<SUBCITY>Path="/VALUATION_RESPONSE/PROPERTY/@_City"</SUBCITY>
+						<SUBCOUNTY>Path="/VALUATION_RESPONSE/PROPERTY/@_County"</SUBCOUNTY>
+						<SUBSTATE>Path="/VALUATION_RESPONSE/PROPERTY/@_State"</SUBSTATE>
+						<SUBZIP>Path="/VALUATION_RESPONSE/PROPERTY/@_PostalCode"</SUBZIP>
+						<NEAREST_CROSSST/>
+						<SUBCENTRACT>Path="/VALUATION_RESPONSE/PROPERTY/@_CensusTractIdentifier"</SUBCENTRACT>
+						<SUBASSESSPARCEL>Path="/VALUATION_RESPONSE/PROPERTY/_IDENTIFICATION/PROPERTY_IDENTIFICATION_EXTENSION/PROPERTY_IDENTIFICATION_EXTENSION_SECTION/PROPERTY_IDENTIFICATION_EXTENSION_SECTION_DATA/PARCEL_IDENTIFIER/@GSEAssessorsParcelIdentifier"</SUBASSESSPARCEL>
+						<SUBMAPREF>Path="/VALUATION_RESPONSE/PROPERTY/_IDENTIFICATION/@MapReferenceIdentifier"</SUBMAPREF>
+						<SUBPROJNAME></SUBPROJNAME>
+						<LOT_NUMBER/>
+						<BLOCK_NUMBER/>
+						<LATITUDE>Path="/VALUATION_RESPONSE/VALUATION_METHODS/SALES_COMPARISON/COMPARABLE_SALE[@PropertySequenceIdentifier="0"]/LOCATION/@LatitudeNumber"</LATITUDE>
+						<LONGITUDE>Path="/VALUATION_RESPONSE/VALUATION_METHODS/SALES_COMPARISON/COMPARABLE_SALE[@PropertySequenceIdentifier="0"]/LOCATION/@LongitudeNumber"</LONGITUDE>
+						<SUBAPPRINSTRUCT/>
+						<LOCATION/>
+					</LOCATION>
+					<CHARACTERISTICS>
+						<RMSAGTOTROOMS>Path="/VALUATION_RESPONSE/PROPERTY/STRUCTURE/@TotalRoomCount"</RMSAGTOTROOMS>
+						<RMSAGTOTBEDROOMS>Path="/VALUATION_RESPONSE/PROPERTY/STRUCTURE/@TotalBedroomCount"</RMSAGTOTBEDROOMS>
+						<RMSAGTOTBATHS>Path="/VALUATION_RESPONSE/PROPERTY/STRUCTURE/@TotalBathroomCount""</RMSAGTOTBATHS>
+						<RMSAGSQFTGLA>Path="/VALUATION_RESPONSE/PROPERTY/STRUCTURE/@GrossLivingAreaSquareFeetCount"</RMSAGSQFTGLA>
+						<PJIYRBUILT>Path="/VALUATION_RESPONSE/PROPERTY/STRUCTURE/@PropertyStructureBuiltYear"</PJIYRBUILT>
+						<YEAR_REMODELED/>
+						<SPECIAL_AMENITIES/>
+						<SITVIEW>Path="/VALUATION_RESPONSE/VALUATION_METHODS/SALES_COMPARISON/COMPARABLE_SALE[@PropertySequenceIdentifier="0"]/SALE_PRICE_ADJUSTMENT[_Type="View"]@_Description"</SITVIEW>
+						<SITSIZE>Path="/VALUATION_RESPONSE/PROPERTY/SITE/@_AreaDescription"</SITSIZE>
+						<CARNOTE/>
+						<HACCOOLCONDITION/>
+						<HACHEATTYPE/>
+						<CONDITION/>
+						<GDSDESIGN></GDSDESIGN>
+						<GDSTYPE/>
+					</CHARACTERISTICS>
+					<ASSIGNMENT>
+						<TYPE_OF_APPRAISAL/>
+						<SUBPRA_FEESIMPLE></SUBPRA_FEESIMPLE>
+						<SUBPRA_LEASEHOLD/>
+						<SUBPRA_LEASED_FEE/>
+						<GDSNUMUNITS>1</GDSNUMUNITS>
+						<TYPE_OF_FORM/>
+					</ASSIGNMENT>
+					<LOAN>
+						<LOAN_TYPE/>
+						<LOAN_NUMBER/>
+						<LOAN_RATE/>
+						<SUBOTHERCONC/>
+						<LTV_PERCENT/>
+						<MAX_LTV_PERCENT/>
+						<SALES_NOTES/>
+						<SUBRETAX></SUBRETAX>
+						<SUBTAXYEAR></SUBTAXYEAR>
+					</LOAN>
+					<PROJECT_HOA>
+						<SUBHOA>0</SUBHOA>
+						<PROJECT_HOA_NAME/>
+					</PROJECT_HOA>
+					<SALES>
+						<RECESTMKTVALUE></RECESTMKTVALUE>
+						<SUBSALEPRICE></SUBSALEPRICE>
+						<SUBDATEOFSALE></SUBDATEOFSALE>
+						<SALE_NOTES/>
+						<SUBLOANCONC></SUBLOANCONC>
+					</SALES>
+					<SCHEDULING>
+						<LOCK_BOX/>
+						<KEY_W_AGENT/>
+						<APPT_ONLY/>
+						<CALL_FIRST/>
+						<SUBOCCUP_VACANT/>
+						<SUBOCCUP_OWNER>X</SUBOCCUP_OWNER>
+						<APPOINT_DATETIME/>
+						<APPOINT_NOTES/>
+						<SCHEDULED_BY/>
+						<HOSTILEOCCUP/>
+						<SUBOCCUP_TENANT/>
+						<PETS_ON_PROPERTY/>
+						<SCHED_ATTEMPTS/>
+					</SCHEDULING>
+					<BILLING>
+						<INV_INVOICE_NUMBER/>
+						<FEES>
+							<BASE_FEE>
+								<VALUE/>
+								<NOTES/>
+							</BASE_FEE>
+							<MISC_FEE NUM="1">
+								<VALUE/>
+								<NOTES/>
+							</MISC_FEE>
+							<MISCFEE_TOTAL>
+								<VALUE/>
+							</MISCFEE_TOTAL>
+							<TOTAL_FEE>
+								<VALUE/>
+								<NOTES/>
+							</TOTAL_FEE>
+						</FEES>
+						<PAYMENTS>
+							<PAYMENT NUM="1">
+								<VALUE/>
+								<NOTES/>
+								<DATE_PAID/>
+								<CHECK_NUM/>
+							</PAYMENT>
+							<TOTAL_PAID>
+								<VALUE/>
+								<NOTES/>
+							</TOTAL_PAID>
+							<TOTAL_DUE>
+								<VALUE/>
+								<NOTES/>
+							</TOTAL_DUE>
+						</PAYMENTS>
+					</BILLING>
+					<PARTIES>
+						<APPRAISER>
+							<NAME>Ellen Walker</NAME>
+							<SINGLEADDRESS>9123 Palm St, Suite 101, Destin, FL 32541</SINGLEADDRESS>
+							<ADDRESS1>9123 Palm St</ADDRESS1>
+							<ADDRESS2>Suite 101</ADDRESS2>
+							<CITY>Destin</CITY>
+							<STATE>FL</STATE>
+							<ZIP>32541</ZIP>
+							<PHONENUMBER>(800) 555-2160</PHONENUMBER>
+							<ALTPHONENUMBER/>
+							<FAXNUMBER/>
+							<EMAILADDRESS>info@BeachAppraisals.com</EMAILADDRESS>
+							<LICENSE_VALUE>
+								<DESIGNATION/>
+								<NUMBER>RDZ123456</NUMBER>
+								<STATE>FL</STATE>
+								<EXPIRATIONDATE>11/30/2014</EXPIRATIONDATE>
+								<CERTIFIED>1</CERTIFIED>
+							</LICENSE_VALUE>
+						</APPRAISER>
+						<SUPERVISOR>
+							<NAME/>
+							<ADDRESS1/>
+							<ADDRESS2/>
+							<CITY/>
+							<STATE/>
+							<ZIP/>
+							<PHONENUMBER/>
+							<ALTPHONENUMBER/>
+							<FAXNUMBER/>
+							<EMAILADDRESS/>
+							<LICENSE_VALUE>
+								<DESIGNATION/>
+								<NUMBER/>
+								<STATE/>
+								<EXPIRATIONDATE/>
+								<CERTIFIED>0</CERTIFIED>
+							</LICENSE_VALUE>
+						</SUPERVISOR>
+						<CLIENT>
+							<NAME>Baytown Mortgage</NAME>
+							<ADDRESS1>723 North Tyndall Parkway</ADDRESS1>
+							<ADDRESS2>Suite 101</ADDRESS2>
+							<CITY>Panama City</CITY>
+							<STATE>FL</STATE>
+							<ZIP>32404</ZIP>
+							<CONTACT NUM="1">
+								<NAME>Alice Gibbons</NAME>
+								<PHONENUMBER>(570) 555-8923</PHONENUMBER>
+								<ALTPHONENUMBER/>
+								<FAXNUMBER>(570) 555-8924</FAXNUMBER>
+								<EMAILADDRESS>Info@BaytownMortgage.net</EMAILADDRESS>
+								<EDIEMAILADDRESS>Info@BaytownMortgage.net</EDIEMAILADDRESS>
+							</CONTACT>
+							<SITE_ID/>
+						</CLIENT>
+						<AGENT>
+							<NAME/>
+							<ADDRESS1/>
+							<ADDRESS2/>
+							<CITY/>
+							<STATE/>
+							<ZIP/>
+							<CONTACT NUM="1">
+								<NAME/>
+							</CONTACT>
+						</AGENT>
+						<OWNER>
+							<NAME>Alexer, Shane &amp; Susan</NAME>
+							<DAYPHONE/>
+							<EVENINGPHONE/>
+							<OTHERPHONE/>
+						</OWNER>
+						<BORROWER>
+							<NAME>Jones, Frank &amp; Sally</NAME>
+							<DAYPHON/>
+							<EVENINGPHONE/>
+							<OTHERPHONE/>
+						</BORROWER>
+						<OCCUPANT>
+							<NAME/>
+							<DAYPHON/>
+							<EVENINGPHONE/>
+							<OTHERPHONE/>
+						</OCCUPANT>
+						<SHIP_TO>
+							<NAME>Baytown Mortgage</NAME>
+							<ADDRESS1>723 North Tyndall Parkway</ADDRESS1>
+							<ADDRESS2>Suite 101</ADDRESS2>
+							<CITY>Panama City</CITY>
+							<STATE>FL</STATE>
+							<ZIP>32404</ZIP>
+							<CONTACT NUM="1">
+								<NAME>Alice Gibbons</NAME>
+								<PHONENUMBER>(570) 555-8923</PHONENUMBER>
+								<ALTPHONENUMBER/>
+								<FAXNUMBER>(570) 555-8924</FAXNUMBER>
+								<EMAILADDRESS>Info@BaytownMortgage.net</EMAILADDRESS>
+								<EDIEMAILADDRESS>Info@BaytownMortgage.net</EDIEMAILADDRESS>
+							</CONTACT>
+							<SITE_ID/>
+						</SHIP_TO>
+						<BILL_TO>
+							<NAME>Baytown Mortgage</NAME>
+							<ADDRESS1>723 North Tyndall Parkway</ADDRESS1>
+							<ADDRESS3>Suite 101</ADDRESS3>
+							<CITY>Panama City</CITY>
+							<STATE>FL</STATE>
+							<ZIP>32404</ZIP>
+							<CONTACT NUM="1">
+								<NAME>Alice Gibbons</NAME>
+								<PHONENUMBER>(570) 555-8923</PHONENUMBER>
+								<ALTPHONENUMBER/>
+								<FAXNUMBER>(570) 555-8924</FAXNUMBER>
+								<EMAILADDRESS>Info@BaytownMortgage.net</EMAILADDRESS>
+								<EDIEMAILADDRESS>Info@BaytownMortgage.net</EDIEMAILADDRESS>
+							</CONTACT>
+							<SITE_ID/>
+						</BILL_TO>
+						<LENDER>
+							<NAME>Baytown Mortgage</NAME>
+							<SINGLEADDRESS>723 North Tyndall Parkway, Suite 101, Panama City, FL 32404</SINGLEADDRESS>
+							<ADDRESS1>723 North Tyndall Parkway</ADDRESS1>
+							<ADDRESS2>Suite 101</ADDRESS2>
+							<CITY>Panama City</CITY>
+							<STATE>FL</STATE>
+							<ZIP>32404</ZIP>
+							<CONTACT NUM="1">
+								<NAME>Alice Gibbons</NAME>
+								<PHONENUMBER>(570) 555-8923</PHONENUMBER>
+								<ALTPHONENUMBER/>
+								<FAXNUMBER>(570) 555-8924</FAXNUMBER>
+								<EMAILADDRESS>Info@BaytownMortgage.net</EMAILADDRESS>
+								<EDIEMAILADDRESS>Info@BaytownMortgage.net</EDIEMAILADDRESS>
+							</CONTACT>
+							<SITE_ED/>
+						</LENDER>
+					</PARTIES>
+				</ORDER>
+				<FORMS>
+
+					<FORM NUM="1" FORMCODE="TOCNP" DESC="Table of Contents is here" MAJOR="False">
+
+					</FORM>
+
+					<!-- MAIN FORM !-->
+					<FORM NUM="2" FORMCODE="Path=/VALUATION_RESPONSE/REPORT/@AppraisalFormType" SECCODE="1" DESC="Path=/VALUATION_RESPONSE/REPORT/FORM/@AppraisalReportContentName" MAJOR="True" COMPSLOTS="3" FIRSTCOMP="1" FONTNAME="" FONTSIZE="" FORECOLOR="000000" BACKCOLOR="FFFFFF" BOLD="False" ITALIC="False" UNDERLINE="False">
+						<FIELDS>
+							<HEADERSUMMARYPHRASE1/>
+							<HEADERFILENUMBERLABEL1/>
+							<HEADERFILENUMBER1/>
+							<HEADERPAGENUMBER1/>
+							<ENCRYPTION>TaylorMade</ENCRYPTION>
+							<OTHERFILENUMBER>Feb. 2013 -08</OTHERFILENUMBER>
+							<FNMA_FILENUMBER>13-01032</FNMA_FILENUMBER>
+							<SUBPROPADDRESS>Path="/VALUATION_RESPONSE/PROPERTY/@_StreetAddress", OverflowLimit=200, OverflowField="REPORT/FORMS/FORM/OVERFLOWFIELDS/SUBPROPADDRESS", Conditional="false"</SUBPROPADDRESS>
+							<SUBCITY>Path="/VALUATION_RESPONSE/PROPERTY/@_City"</SUBCITY>
+							<SUBSTATE>Path="/VALUATION_RESPONSE/PROPERTY/@_State"</SUBSTATE>
+							<SUBZIP>Path="/VALUATION_RESPONSE/PROPERTY/@_PostalCode"</SUBZIP>
+							<SUBBORROWER>Path="/VALUATION_RESPONSE/PARTIES/BORROWER/BORROWER_EXTENSION/BORROWER_EXTENSION_SECTION/BORROWER_EXTENSION_SECTION_DATA/BORROWER_NAME/@GSEBorrowerName" </SUBBORROWER>
+							<SUBCUROWNER>Path="/VALUATION_RESPONSE/PROPERTY/_OWNER/PROPERTY_OWNER_EXTENSION/PROPERTY_OWNER_EXTENSION_SECTION/PROPERTY_OWNER_EXTENSION_SECTION_DATA/PROPERTY_OWNER/@GSEPropertyOwnerName"</SUBCUROWNER>
+							<SUBCOUNTY>Path="/VALUATION_RESPONSE/PROPERTY/@_County"</SUBCOUNTY>
+							<SUBLEGALDESCRIP>Path="/VALUATION_RESPONSE/PROPERTY/_LEGAL_DESCRIPTION/@_TextDescription", OverflowLimit=200, OverflowField="REPORT/FORMS/FORM/OVERFLOWFIELDS/SUBLEGALDESCRIP" </SUBLEGALDESCRIP>
+							<SUBASSESSPARCEL>Path="/VALUATION_RESPONSE/PROPERTY/_IDENTIFICATION/PROPERTY_IDENTIFICATION_EXTENSION/PROPERTY_IDENTIFICATION_EXTENSION_SECTION/PROPERTY_IDENTIFICATION_EXTENSION_SECTION_DATA/PARCEL_IDENTIFIER/@GSEAssessorsParcelIdentifier"</SUBASSESSPARCEL>
+							<SUBTAXYEAR>Path="/VALUATION_RESPONSE/PROPERTY/_TAX/@_YearIdentifier"</SUBTAXYEAR>
+							<SUBRETAX>Path="/VALUATION_RESPONSE/PROPERTY/_TAX/PROPERTY_TAX_EXTENSION/PROPERTY_TAX_EXTENSION_SECTION/PROPERTY_TAX_EXTENSION_SECTION_DATA/PROPERTY_TAX_AMOUNT/@GSEPropertyTaxTotalTaxAmount"</SUBRETAX>
+							<SUBPROJNAME>Path="/VALUATION_RESPONSE/PROPERTY/NEIGHBORHOOD/@_Name" </SUBPROJNAME>
+							<SUBMAPREF>Path="/VALUATION_RESPONSE/PROPERTY/_IDENTIFICATION/@MapReferenceIdentifier"</SUBMAPREF>
+							<SUBCENTRACT>Path="/VALUATION_RESPONSE/PROPERTY/_IDENTIFICATION/@CensusTractIdentifier"</SUBCENTRACT>
+							<CONDITION/>
+							<LOCATION/>
+							<SUBOCCUP_OWNER>Path="/VALUATION_RESPONSE/PROPERTY/@_CurrentOccupancyType", ConditionalAttribValue="OwnerOccupied"</SUBOCCUP_OWNER>
+							<SUBOCCUP_TENANT>Path="/VALUATION_RESPONSE/PROPERTY/@_CurrentOccupancyType", ConditionalAttribValue="TenantOccupied"</SUBOCCUP_TENANT>
+							<SUBOCCUP_VACANT>Path="/VALUATION_RESPONSE/PROPERTY/@_CurrentOccupancyType", ConditionalAttribValue="Vacant"</SUBOCCUP_VACANT>
+							<SUBSPECASSESS>Path="/VALUATION_RESPONSE/PROPERTY/_TAX/@_TotalSpecialTaxAmount"</SUBSPECASSESS>
+							<SUBPROJTYPE_PUD/>
+							<SUBHOA>Path="/VALUATION_RESPONSE/PROPERTY/PROJECT/_PER_UNIT_FEE/@_Amount"</SUBHOA>
+							<HOAPERYEAR>Path="/VALUATION_RESPONSE/PROPERTY/PROJECT/_PER_UNIT_FEE/@_PeriodType", ConditionalAttributeValue="Annually" </HOAPERYEAR>
+							<HOAPERMONTH>Path="/VALUATION_RESPONSE/PROPERTY/PROJECT/_PER_UNIT_FEE/@_PeriodType", ConditionalAttributeValue="Monthly" </HOAPERMONTH>
+							<SUBPRA_FEESIMPLE>Path="/VALUATION_RESPONSE/PROPERTY/@_RightsType", ConditionalAttribValue="FeeSimple"</SUBPRA_FEESIMPLE>
+							<SUBPRA_LEASEHOLD>Path="/VALUATION_RESPONSE/PROPERTY/@_RightsType", ConditionalAttribValue="LeaseHold"</SUBPRA_LEASEHOLD>
+							<SUBPRA_OTHER>Path="/VALUATION_RESPONSE/PROPERTY/@_RightsType", ConditionalAttribValue="Other"</SUBPRA_OTHER>
+							<SUBPRA_OTHTXT>Path="/VALUATION_RESPONSE/PROPERTY/@__RightsTypeOtherDescription"</SUBPRA_OTHTXT>
+							<PUR_PURCHASE>Path="/VALUATION_RESPONSE/REPORT/@AppraisalPurposeType", ConditionalAttribValue="Purchase"</PUR_PURCHASE>
+							<PUR_REFINANCE>Path="/VALUATION_RESPONSE/REPORT/@AppraisalPurposeType", ConditionalAttribValue="Refinance"</PUR_REFINANCE>
+							<PUR_OTHER>Path="/VALUATION_RESPONSE/REPORT/@AppraisalPurposeType", ConditionalAttribValue="Other"</PUR_OTHER>
+							<PUR_OTHER_TXT>Path="/VALUATION_RESPONSE/REPORT/@AppraisalPurposeTypeOtherDescription"</PUR_OTHER_TXT>
+
+							<SUBLENCLIENT>Baytown Mortgage</SUBLENCLIENT>
+							<SUBLCADDRESS>723 North Tyndall Parkway, Suite 101, Panama City, FL 32404</SUBLCADDRESS>
+							<LENDERADDRESS1>723 North Tyndall Parkway</LENDERADDRESS1>
+							<LENDERCITY>Panama City</LENDERCITY>
+							<LENDERSTATE>FL</LENDERSTATE>
+							<LENDERZIP>32404</LENDERZIP>
+							<SUBLISTDPRI12_YES>X</SUBLISTDPRI12_YES>
+							<SUBOFFRD_YES>X</SUBOFFRD_YES>
+							<SUBOFFRD_NO/>
+							<SUBDOM>174</SUBDOM>
+							<SUBOFFERSTXT>Subject was found on the OCAR MLS listed on 08/10/2012 for $3,400,000, price change to $3,200,000 on 11/25/2012, price change to $3,099,000 on 12/1/2012 and status was changed to pending sale on 1/19/2013.</SUBOFFERSTXT>
+							<SUBLISTDPRI12_NO/>
+							<SUBLISTDPRI12_TXT>DOM 174;Subject was found on the OCAR MLS listed on 08/10/2012 for $3,400,000, price change to $3,200,000 on 11/25/2012, price change to $3,099,000 on 12/1/2012 and status was changed to pending sale on 1/19/2013.</SUBLISTDPRI12_TXT>
+							<SUBPMTCTRREV_YES>X</SUBPMTCTRREV_YES>
+							<EX_CONTRANAL_YES>X</EX_CONTRANAL_YES>
+							<EX_CONTRANAL_NO/>
+							<DP_CONTRANAL>Arms length sale</DP_CONTRANAL>
+							<CONTRANALTXT>The subject contract is a FL Uniform Contract Residential Contract of Sale of Real Estate dated 1/19/2013 for 3,099,000. Seller willing to pay up to 2% in closing cost. The contract was 12 pages long with 2 addenda.</CONTRANALTXT>
+							<SUBPMTCTRREV_NO/>
+							<SUBPMTCTRREV_TXT1>Arms length sale;The subject contract is a FL Uniform Contract Residential Contract of Sale of Real Estate dated 1/19/2013 for 3,099,000. Seller willing to pay up to 2% in closing cost. The contract was 12 pages long with 2 addenda.</SUBPMTCTRREV_TXT1>
+							<SUBSALEPRICE>3,099,000</SUBSALEPRICE>
+							<SUBDATEOFSALE>01/19/2013</SUBDATEOFSALE>
+							<SELLERISOWNER_YES>X</SELLERISOWNER_YES>
+							<SELLERISOWNER_NO/>
+							<SELLERISOWNER_TXT1>County Records</SELLERISOWNER_TXT1>
+							<SUBLOANCONC_YES>X</SUBLOANCONC_YES>
+							<EX_FINASSIST_YES>X</EX_FINASSIST_YES>
+							<EX_FINASSIST_NO/>
+							<SUBLOANCONC>61,980</SUBLOANCONC>
+							<SALECONCESS_UNK/>
+							<SALECONCESSTXT>The subject contract is an As Is Florida Realtors/Florida Bar Contract dated 1/19/2013 for 3,099,000. Up to 2% of the closing cost will be paid by the seller, this is typical for the market. The contract was 12 pages long with 2 addenda.</SALECONCESSTXT>
+							<SUBLOANCONC_NO/>
+							<SUBLOANCONC_TXT>$61,980;;The subject contract is an As Is Florida Realtors/Florida Bar Contract dated 1/19/2013 for 3,099,000. Up to 2% of the closing cost will be paid by the seller, this is typical for the market. The contract was 12 pages long with 2 addenda.</SUBLOANCONC_TXT>
+							<NBHLOC_URBAN/>
+							<NBHLOC_SUBURBAN>X</NBHLOC_SUBURBAN>
+							<NBHLOC_RURAL/>
+							<NBHBLTUP_OVER75>X</NBHBLTUP_OVER75>
+							<NBHBLTUP_25TO75/>
+							<NBHBLTUP_UNDER25/>
+							<NBHGRWRT_RAPID/>
+							<NBHGRWRT_STABLE>X</NBHGRWRT_STABLE>
+							<NBHGRWRT_SLOW/>
+							<NBHPROPVAL_INCR/>
+							<NBHPROPVAL_STAB>X</NBHPROPVAL_STAB>
+							<NBHPROPVAL_DECL/>
+							<NBHDEMSUP_SHRTG/>
+							<NBHDEMSUP_INBAL>X</NBHDEMSUP_INBAL>
+							<NBHDEMSUP_OVRSUP/>
+							<NBHMKTTIME_UND3/>
+							<NBHMKTTIME_3TO6/>
+							<NBHMKTTIME_OVR6>X</NBHMKTTIME_OVR6>
+							<SFHPRICELOW>1,000</SFHPRICELOW>
+							<SFHPRICEHIGH>4,000</SFHPRICEHIGH>
+							<SFHPRICEPRED>2,000</SFHPRICEPRED>
+							<SFHAGELOW>1</SFHAGELOW>
+							<SFHAGEHIGH>40</SFHAGEHIGH>
+							<SFHAGEPRED>18</SFHAGEPRED>
+							<CF_PLU_TOTAL_PCT>100</CF_PLU_TOTAL_PCT>
+							<PLUONEFAM>55</PLUONEFAM>
+							<PLU2TO4FAM>5</PLU2TO4FAM>
+							<PLUMULTIFAM>20</PLUMULTIFAM>
+							<PLUCOMMERCIAL>15</PLUCOMMERCIAL>
+							<PLUOTHER>5</PLUOTHER>
+							<NBHBOUNDARIES_1>The subject is bound to the North by Emerald Coast Pkwy, South by The Gulf of Mexico, East by the eastern edge of Okaloosa County and to the West by Mathews Blvd</NBHBOUNDARIES_1>
+							<NBHFACTORS_1>See attached addenda.</NBHFACTORS_1>
+							<NBHMKTCOND_1>See attached addenda.</NBHMKTCOND_1>
+							<SITDIMENSIONS>66' x 303' x 68' x 299'</SITDIMENSIONS>
+							<SITSITEAREA>20,473 sf</SITSITEAREA>
+							<SITSHAPE>Mostly Rectangular</SITSHAPE>
+							<SITVIEW>B;Wtr;</SITVIEW>
+							<DP_SITVW1>Beneficial</DP_SITVW1>
+							<DP_SITVW2>Water</DP_SITVW2>
+							<SITVWOTH2/>
+							<DP_SITVW3/>
+							<SITVWOTH3/>
+							<SITZONCLASS>Residential - SBN</SITZONCLASS>
+							<SITZONDESC>Residential - Sunny Beach Neighborhood</SITZONDESC>
+							<SITZON_LEGAL>X</SITZON_LEGAL>
+							<SITZON_LEGALNON/>
+							<SITZON_NOZONING/>
+							<SITZON_ILLEGAL/>
+							<SITZON_ILLEGAL_TXT/>
+							<SITHBUSE_PRESENT>X</SITHBUSE_PRESENT>
+							<SITHBUSE_OTHER/>
+							<SITHBUSE_EXPLAIN/>
+							<UTLELECT_PUB>X</UTLELECT_PUB>
+							<UTLELECT_OTH/>
+							<UTLELECT_OTHER/>
+							<UTLGAS_PUB>X</UTLGAS_PUB>
+							<UTLGAS_OTH/>
+							<UTLGAS_OTHER/>
+							<UTLWATER_PUB>X</UTLWATER_PUB>
+							<UTLWATER_OTH/>
+							<UTLWATER_OTHER/>
+							<UTLSANSEW_PUB>X</UTLSANSEW_PUB>
+							<UTLSANSEW_OTH/>
+							<UTLSANSEW_OTHER/>
+							<OSISTREET_TYPE>Macadam</OSISTREET_TYPE>
+							<OSISTREET_PUB>X</OSISTREET_PUB>
+							<OSISTREET_PRIV/>
+							<OSIALLEY_TYPE>None</OSIALLEY_TYPE>
+							<OSIALLEY_PUB/>
+							<OSIALLEY_PRIV/>
+							<SITFLDHAZ_YES/>
+							<SITFLDHAZ_NO>X</SITFLDHAZ_NO>
+							<SITFEMAZONE>X</SITFEMAZONE>
+							<SITFEMAMAPNO>12091C0493H</SITFEMAMAPNO>
+							<SITFEMAMAPDATE>12/06/2002</SITFEMAMAPDATE>
+							<UTLOSI_TYP_YES>X</UTLOSI_TYP_YES>
+							<UTLOSI_TYP_NO/>
+							<UTLOSI_TYP_TXT/>
+							<SITADVCOND_YES/>
+							<SITADVCOND_NO>X</SITADVCOND_NO>
+							<SITCOMMENTS_1/>
+							<UNIT_SINGLE>X</UNIT_SINGLE>
+							<UNIT_ACC_INLAW/>
+							<GDSNUMUNITS>1</GDSNUMUNITS>
+							<GDSNUMSTORIES>3</GDSNUMSTORIES>
+							<GDSTYPE_DETACH>X</GDSTYPE_DETACH>
+							<GDSTYPE_ATTACH/>
+							<GDSTYPE_SEMIDET/>
+							<GDSEXISTING>X</GDSEXISTING>
+							<GDSPROPOSED/>
+							<GDSUNDERCONSTR/>
+							<GDSDESIGN>Villa</GDSDESIGN>
+							<PJIYRBUILT>1995</PJIYRBUILT>
+							<GDSEFFECTAGE>10</GDSEFFECTAGE>
+							<GDSAGE>17</GDSAGE>
+							<CURRYEAR/>
+							<BSMAREASLAB/>
+							<BSMAREACRAWL>X</BSMAREACRAWL>
+							<BSMAREAFULL/>
+							<BSMAREAPART/>
+							<BSMAREASF>0</BSMAREASF>
+							<BSMFINISHSF>0</BSMFINISHSF>
+							<BSMFINPCTHIGH>0</BSMFINPCTHIGH>
+							<BSMPCTFINISHED>0</BSMPCTFINISHED>
+							<BSMEXTRNACCESS/>
+							<BSMSUMPPUMP/>
+							<FNDINFESTED/>
+							<FNDINFESTATION/>
+							<BSMDAMPNESS/>
+							<FNDSETTLEMENT/>
+							<FOUNDWALL_TYPE>Wood Pilings/Good</FOUNDWALL_TYPE>
+							<EXTEXTWALLS>Stucco/Good</EXTEXTWALLS>
+							<EXTRFSURFACE>Slate/Good</EXTRFSURFACE>
+							<EXTGUTTERS>Aluminum/Good</EXTGUTTERS>
+							<EXTWINDTYPE>Thermal/Good</EXTWINDTYPE>
+							<EXTSTORMSASH>None</EXTSTORMSASH>
+							<EXTSTORMSCREENS>None</EXTSTORMSCREENS>
+							<INTFLOORS>Hrd Wd\Crpt\Good</INTFLOORS>
+							<INTWALLS>Drywall\Paint\Good</INTWALLS>
+							<INTTRIM>Wood\Paint\Good</INTTRIM>
+							<INTBATHFLOOR>Slate Tile\Good</INTBATHFLOOR>
+							<INTBATHWAINSCOT>Ceramic Tile\Good</INTBATHWAINSCOT>
+							<ATTNONE>X</ATTNONE>
+							<ATTDROPSTAIR/>
+							<ATTSTAIRS/>
+							<ATTFLOOR/>
+							<ATTSCUTTLE/>
+							<ATTFINISHED/>
+							<ATTHEATED/>
+							<HEAT_FWA>X</HEAT_FWA>
+							<HEAT_HWBB/>
+							<HEAT_RADIANT/>
+							<HEAT_OTHER/>
+							<HEAT_OTHER_TXT/>
+							<HACHEATFUEL>Gas</HACHEATFUEL>
+							<HACCOOLCENTRAL>X</HACCOOLCENTRAL>
+							<AIR_INDIVID/>
+							<AIR_INDIVID_TXT/>
+							<AIR_OTHER/>
+							<AIR_OTHER_TXT/>
+							<AMNFIREPLC_YES>X</AMNFIREPLC_YES>
+							<AMNFIREPLACE>2</AMNFIREPLACE>
+							<AMNPATDECK_YES>X</AMNPATDECK_YES>
+							<AMNPATDECK_TXT>Cov.</AMNPATDECK_TXT>
+							<AMNPOOL_YES/>
+							<AMNPOOL_TXT>None</AMNPOOL_TXT>
+							<AMNWDSTV_YES/>
+							<AMNWDSTV_NUM>0</AMNWDSTV_NUM>
+							<AMNFENCE_YES>X</AMNFENCE_YES>
+							<AMNFENCE_TXT>Railing</AMNFENCE_TXT>
+							<AMNPORCH_YES>X</AMNPORCH_YES>
+							<AMNPORCH_TXT>Covered</AMNPORCH_TXT>
+							<AMNOTHER_YES>X</AMNOTHER_YES>
+							<AMNOTHER_TXT>Spa</AMNOTHER_TXT>
+							<CARNONE_BOX/>
+							<CARDRVWY_BOX>X</CARDRVWY_BOX>
+							<DRIVEWAYCARS>2</DRIVEWAYCARS>
+							<SITDRIVEWAY>Concrete</SITDRIVEWAY>
+							<CAR_GARAGE>X</CAR_GARAGE>
+							<GARAGECARS>2</GARAGECARS>
+							<CARNOTE/>
+							<CAR_CARPORT>X</CAR_CARPORT>
+							<CARPORTCARS>2</CARPORTCARS>
+							<CARATT_BOX>X</CARATT_BOX>
+							<CARDET_BOX/>
+							<CARBLTIN_BOX>X</CARBLTIN_BOX>
+							<KITREFRIGERATOR>X</KITREFRIGERATOR>
+							<KITRANGE>X</KITRANGE>
+							<KITDISHWASHER>X</KITDISHWASHER>
+							<KITDISPOSAL>X</KITDISPOSAL>
+							<KITMICROWAVE>X</KITMICROWAVE>
+							<KITWASHERDRYER/>
+							<KITOTHERAPPL/>
+							<INTAPPLIANCES/>
+							<RMSAGTOTROOMS>13</RMSAGTOTROOMS>
+							<RMSAGTOTBEDROOMS>5</RMSAGTOTBEDROOMS>
+							<RMSAGTOTBATHS>6.2</RMSAGTOTBATHS>
+							<RMSAGSQFTGLA>5,452</RMSAGSQFTGLA>
+							<CMTADDFEATURES_1>The subject has typical features and energy efficient items for the area.</CMTADDFEATURES_1>
+							<CMTCONDITION_1>C2;Kitchen-updated-one to five years ago;Bathrooms-updated-one to five years ago;The subject has had the flooring replaced in the kitchen and baths ~2 years ago. All appliances in the kitchen were replaced less than 18 months ago. Carpet and hardwood throughout the house was replaced/installed ~7 years ago.  The subject has had an 11' x 11' spa installed in the past 12 months. Subject exhibits less than normal wear and tear on the other components of the house.  All these factors lead to a condition of C2 and an effective age of 10 years.</CMTCONDITION_1>
+							<DP_OVRLCOND>Overall C2</DP_OVRLCOND>
+							<COI_NOUPD/>
+							<DP_KITTYP>Updated</DP_KITTYP>
+							<DP_KITAGE>1-5 years ago</DP_KITAGE>
+							<DP_BATHTYP>Updated</DP_BATHTYP>
+							<DP_BATHAGE>1-5 years ago</DP_BATHAGE>
+							<IMPUPDDESC1>The subject has had the flooring replaced in the kitchen and baths ~2 years ago. All appliances in the kitchen were replaced less than 18 months ago. Carpet and hardwood throughout the house was replaced/installed ~7 years ago.  The subject has had an 11' x 11' spa installed in the past 12 months. Subject exhibits less than normal wear and tear on the other components of the house.  All these factors lead to a condition of C2 and an effective age of 10 years.</IMPUPDDESC1>
+							<PHYSICALDEF_YES/>
+							<PHYSICALDEF_NO>X</PHYSICALDEF_NO>
+							<PHYSICALDEF_TXT/>
+							<SUBCONFORMNBH_YES>X</SUBCONFORMNBH_YES>
+							<SUBCONFORMNBH_NO/>
+							<SUBCONFORMNBH_TXT/>
+							<FOOTER1>Form 1004UAD - "TOTAL" appraisal software by a la mode, inc. - 1-800-ALAMODE</FOOTER1>
+							<HEADERSUMMARYPHRASE2/>
+							<HEADERFILENUMBERLABEL2/>
+							<HEADERFILENUMBER2/>
+							<HEADERPAGENUMBER2/>
+							<OTHERFILENUMBER2>Feb. 2013 -08</OTHERFILENUMBER2>
+							<FNMA_FILENUMBER2>13-01032</FNMA_FILENUMBER2>
+							<TOTAL_LISTING>10</TOTAL_LISTING>
+							<LISTING_LOW>1,999,000</LISTING_LOW>
+							<LISTING_HIGH>4,999,000</LISTING_HIGH>
+							<TOTAL_SALES>9</TOTAL_SALES>
+							<SALES_LOW>1,900,000</SALES_LOW>
+							<SALES_HIGH>4,100,000</SALES_HIGH>
+							<GSU_AD_ADDR1>1004MC</GSU_AD_ADDR1>
+							<GSU_AD_ADDR2>Destin, FL 32541</GSU_AD_ADDR2>
+							<GSU_DB_CITY>Destin</GSU_DB_CITY>
+							<GSU_DB_STATE>FL</GSU_DB_STATE>
+							<GSU_DB_ZIPCODE>32541</GSU_DB_ZIPCODE>
+							<GSU_PR_SALEPR1>3,099,000</GSU_PR_SALEPR1>
+							<GSU_PU_PERGLA>568.42</GSU_PU_PERGLA>
+							<GSU_SC_SOURCE1/>
+							<GSU_EX_DATSRC1/>
+							<GSU_EX_DOM>174</GSU_EX_DOM>
+							<GSU_SC_SOURCE2/>
+							<GSU_FN_CONC1>ArmLth</GSU_FN_CONC1>
+							<GSU_FN_CONC2>61,980</GSU_FN_CONC2>
+							<GSU_DP_FINTYP1/>
+							<GSU_EX_OTHCONC/>
+							<GSU_EX_CONCAMT>61980</GSU_EX_CONCAMT>
+							<GSU_DT_SALTIM1/>
+							<GSU_DP_CMPTYPE/>
+							<GSU_EX_CONTDATE/>
+							<GSU_EX_SETTDATE/>
+							<GSU_EX_WTDRDATE/>
+							<GSU_EX_EXPRDATE/>
+							<GSU_LC_LOCAT1>B;WtrFr;Res</GSU_LC_LOCAT1>
+							<GSU_DP_LOCAT>Beneficial</GSU_DP_LOCAT>
+							<GSU_DP_LOC1>Water Front</GSU_DP_LOC1>
+							<GSU_EX_LOC1OTH/>
+							<GSU_DP_LOC2>Residential</GSU_DP_LOC2>
+							<GSU_EX_LOC2OTH/>
+							<GSU_RG_RIGHTS>Fee Simple</GSU_RG_RIGHTS>
+							<GSU_ST_SITSIZE>20,473 sf</GSU_ST_SITSIZE>
+							<GSU_ST_SITEVW>B;Wtr;</GSU_ST_SITEVW>
+							<GSU_DP_SITVW1>Beneficial</GSU_DP_SITVW1>
+							<GSU_DP_SITVW2>Water</GSU_DP_SITVW2>
+							<GSU_EX_SITVWO2/>
+							<GSU_DP_SITVW3/>
+							<GSU_EX_SITVWO3/>
+							<GSU_DA_DESAPL1>Villa</GSU_DA_DESAPL1>
+							<GSU_DA_CONSTQL>Q2</GSU_DA_CONSTQL>
+							<GSU_AG_AGYRBLT>17</GSU_AG_AGYRBLT>
+							<GSU_AG_COND1>C2</GSU_AG_COND1>
+							<GSU_RM_TOTAL>13</GSU_RM_TOTAL>
+							<GSU_RM_BED>5</GSU_RM_BED>
+							<GSU_RM_BATH>6.2</GSU_RM_BATH>
+							<GSU_SF_GLA>5,452</GSU_SF_GLA>
+							<GSU_BM_BSM1>0sf</GSU_BM_BSM1>
+							<GSU_EX_BSMSF>0</GSU_EX_BSMSF>
+							<GSU_EX_BSMFIN>0</GSU_EX_BSMFIN>
+							<GSU_DP_BSMEXIT/>
+							<GSU_BM_BSM2/>
+							<GSU_EX_BSMRECRM>0</GSU_EX_BSMRECRM>
+							<GSU_EX_BSMBED>0</GSU_EX_BSMBED>
+							<GSU_EX_BSMBATH>0.0</GSU_EX_BSMBATH>
+							<GSU_EX_BSMOTHRM>0</GSU_EX_BSMOTHRM>
+							<GSU_FU_FUNCTUT>Typical/Good</GSU_FU_FUNCTUT>
+							<GSU_HC_HTCOOL>FWA/CAC</GSU_HC_HTCOOL>
+							<GSU_EE_EFFIC1>Typical</GSU_EE_EFFIC1>
+							<GSU_CR_GARPRK1>2 Car Built In</GSU_CR_GARPRK1>
+							<GSU_PF_PORPAT1>Cov Porch/Patio</GSU_PF_PORPAT1>
+							<GSU_CM_OTHR1_TEXT>Fireplace</GSU_CM_OTHR1_TEXT>
+							<GSU_BL_BLANK1>1 In, 1 Out</GSU_BL_BLANK1>
+							<GSU_CM_OTHR2_TEXT>Other Amenities</GSU_CM_OTHR2_TEXT>
+							<GSU_BL_BLANK2>Spa</GSU_BL_BLANK2>
+							<GSU_CM_OTHR3_TEXT/>
+							<GSU_BL_BLANK3/>
+							<GSU_HS_PRIOR1/>
+							<GSU_HS_PRIOR2/>
+							<GSU_HS_PRIOR3>Okaloosa Cnty Online Rcds</GSU_HS_PRIOR3>
+							<GSU_HS_DSDATE>02/20/2013</GSU_HS_DSDATE>
+							<GC1_AD_ADDR1>4702 Ocean Blvd</GC1_AD_ADDR1>
+							<GC1_AD_ADDR2>Destin, FL 32541</GC1_AD_ADDR2>
+							<GC1_DB_CITY>Destin</GC1_DB_CITY>
+							<GC1_DB_STATE>FL</GC1_DB_STATE>
+							<GC1_DB_ZIPCODE>32541</GC1_DB_ZIPCODE>
+							<GC1_PROX1>0.37 miles E</GC1_PROX1>
+							<GC1_PR_SALEPR1>2,986,000</GC1_PR_SALEPR1>
+							<GC1_PU_PERGLA>521.85</GC1_PU_PERGLA>
+							<GC1_SC_SOURCE1>OCAR# 572631;DOM 212</GC1_SC_SOURCE1>
+							<GC1_EX_DATSRC1>OCAR# 572631</GC1_EX_DATSRC1>
+							<GC1_EX_DOM>212</GC1_EX_DOM>
+							<GC1_SC_SOURCE2>Okaloosa Cnty Appraiser Record</GC1_SC_SOURCE2>
+							<GC1_FN_CONC1>ArmLth</GC1_FN_CONC1>
+							<GC1_FN_CONC1_ADJ/>
+							<GC1_FN_CONC2>Conv;68750</GC1_FN_CONC2>
+							<GC1_DP_FINTYP1>Conventional</GC1_DP_FINTYP1>
+							<GC1_EX_OTHCONC/>
+							<GC1_EX_CONCAMT>68750</GC1_EX_CONCAMT>
+							<GC1_FN_CONC2_ADJ>0</GC1_FN_CONC2_ADJ>
+							<GC1_DT_SALTIM1>s04/12;c01/12</GC1_DT_SALTIM1>
+							<GC1_DP_CMPTYPE>Settled sale</GC1_DP_CMPTYPE>
+							<GC1_EX_CONTKWN>X</GC1_EX_CONTKWN>
+							<GC1_EX_CONTUNK/>
+							<GC1_EX_CONTDATE>01/12</GC1_EX_CONTDATE>
+							<GC1_EX_SETTDATE>04/12</GC1_EX_SETTDATE>
+							<GC1_EX_WTDRDATE/>
+							<GC1_EX_EXPRDATE/>
+							<GC1_DT_SALTIM1_ADJ>+55,800</GC1_DT_SALTIM1_ADJ>
+							<GC1_LC_LOCAT1>B;WtrFr;Res</GC1_LC_LOCAT1>
+							<GC1_DP_LOCAT>Beneficial</GC1_DP_LOCAT>
+							<GC1_DP_LOC1>Water Front</GC1_DP_LOC1>
+							<GC1_EX_LOC1OTH/>
+							<GC1_DP_LOC2>Residential</GC1_DP_LOC2>
+							<GC1_EX_LOC2OTH/>
+							<GC1_LC_LOCAT1_ADJ/>
+							<GC1_RG_RIGHTS>Fee Simple</GC1_RG_RIGHTS>
+							<GC1_RG_RIGHTS_ADJ/>
+							<GC1_ST_SITSIZE>20,604 sf</GC1_ST_SITSIZE>
+							<GC1_ST_SITSIZE_ADJ>0</GC1_ST_SITSIZE_ADJ>
+							<GC1_ST_SITEVW>B;Wtr;</GC1_ST_SITEVW>
+							<GC1_DP_SITVW1>Beneficial</GC1_DP_SITVW1>
+							<GC1_DP_SITVW2>Water</GC1_DP_SITVW2>
+							<GC1_EX_SITVWO2/>
+							<GC1_DP_SITVW3/>
+							<GC1_EX_SITVWO3/>
+							<GC1_ST_SITEVW_ADJ/>
+							<GC1_DA_DESAPL1>Mediterranean</GC1_DA_DESAPL1>
+							<GC1_DA_DESAPL1_ADJ>-25,000</GC1_DA_DESAPL1_ADJ>
+							<GC1_DA_CONSTQL>Q2</GC1_DA_CONSTQL>
+							<GC1_DA_CONSTQL_ADJ/>
+							<GC1_AG_AGYRBLT>15</GC1_AG_AGYRBLT>
+							<GC1_AG_AGYRBLT_ADJ>0</GC1_AG_AGYRBLT_ADJ>
+							<GC1_AG_COND1>C2</GC1_AG_COND1>
+							<GC1_AG_COND1_ADJ/>
+							<GC1_RM_BED_ADJ/>
+							<GC1_RM_TOTAL>15</GC1_RM_TOTAL>
+							<GC1_RM_BED>7</GC1_RM_BED>
+							<GC1_RM_BATH>7.0</GC1_RM_BATH>
+							<GC1_RM_TOTAL_ADJ>+2,500</GC1_RM_TOTAL_ADJ>
+							<GC1_SF_GLA>5,722</GC1_SF_GLA>
+							<GC1_SF_GLA_ADJ>0</GC1_SF_GLA_ADJ>
+							<GC1_BM_BSM1>0sf</GC1_BM_BSM1>
+							<GC1_EX_BSMSF>0</GC1_EX_BSMSF>
+							<GC1_EX_BSMFIN>0</GC1_EX_BSMFIN>
+							<GC1_DP_BSMEXIT/>
+							<GC1_BM_BSM1_ADJ/>
+							<GC1_BM_BSM2/>
+							<GC1_EX_BSMRECRM>0</GC1_EX_BSMRECRM>
+							<GC1_EX_BSMBED>0</GC1_EX_BSMBED>
+							<GC1_EX_BSMBATH>0.0</GC1_EX_BSMBATH>
+							<GC1_EX_BSMOTHRM>0</GC1_EX_BSMOTHRM>
+							<GC1_BM_BSM2_ADJ/>
+							<GC1_FU_FUNCTUT>Typical/Good</GC1_FU_FUNCTUT>
+							<GC1_FU_FUNCTUT_ADJ/>
+							<GC1_HC_HTCOOL>FWA/CAC</GC1_HC_HTCOOL>
+							<GC1_HC_HTCOOL_ADJ/>
+							<GC1_EE_EFFIC1>Typical</GC1_EE_EFFIC1>
+							<GC1_EE_EFFIC1_ADJ/>
+							<GC1_CR_GARPRK1>2 Car A.Garage</GC1_CR_GARPRK1>
+							<GC1_CR_GARPRK1_ADJ>0</GC1_CR_GARPRK1_ADJ>
+							<GC1_PF_PORPAT1>Cov Porch/Patio</GC1_PF_PORPAT1>
+							<GC1_PF_PORPAT1_ADJ/>
+							<GC1_BL_BLANK1>2 Indoor</GC1_BL_BLANK1>
+							<GC1_BL_BLANK1_ADJ>0</GC1_BL_BLANK1_ADJ>
+							<GC1_BL_BLANK2>Spa</GC1_BL_BLANK2>
+							<GC1_BL_BLANK2_ADJ/>
+							<GC1_BL_BLANK3/>
+							<GC1_BL_BLANK3_ADJ/>
+							<GC1_CHECKPOS_ADJ>X</GC1_CHECKPOS_ADJ>
+							<GC1_CHECKNEG_ADJ/>
+							<GC1_NETADJ_ADJ>33,300</GC1_NETADJ_ADJ>
+							<GC1_NETADJPCT_ADJ>1.1</GC1_NETADJPCT_ADJ>
+							<GC1_GRSADJPCT_ADJ>2.8</GC1_GRSADJPCT_ADJ>
+							<GC1_ADJSALEPRC_ADJ>3,019,300</GC1_ADJSALEPRC_ADJ>
+							<GC1_HS_PRIOR1/>
+							<GC1_HS_PRIOR2/>
+							<GC1_HS_PRIOR3>Okaloosa Cnty Online Rcds</GC1_HS_PRIOR3>
+							<GC1_HS_DSDATE>02/20/2013</GC1_HS_DSDATE>
+							<GC2_AD_ADDR1>4772 Ocean Blvd</GC2_AD_ADDR1>
+							<GC2_AD_ADDR2>Destin, FL 32541</GC2_AD_ADDR2>
+							<GC2_DB_CITY>Destin</GC2_DB_CITY>
+							<GC2_DB_STATE>FL</GC2_DB_STATE>
+							<GC2_DB_ZIPCODE>32541</GC2_DB_ZIPCODE>
+							<GC2_PROX1>0.09 miles W</GC2_PROX1>
+							<GC2_PR_SALEPR1>2,500,000</GC2_PR_SALEPR1>
+							<GC2_PU_PERGLA>489.05</GC2_PU_PERGLA>
+							<GC2_SC_SOURCE1>OCAR# 58398;DOM 176</GC2_SC_SOURCE1>
+							<GC2_EX_DATSRC1>OCAR# 58398</GC2_EX_DATSRC1>
+							<GC2_EX_DOM>176</GC2_EX_DOM>
+							<GC2_SC_SOURCE2>Okaloosa Cnty Appraiser Record</GC2_SC_SOURCE2>
+							<GC2_FN_CONC1>ArmLth</GC2_FN_CONC1>
+							<GC2_FN_CONC1_ADJ/>
+							<GC2_FN_CONC2>Conv;100000</GC2_FN_CONC2>
+							<GC2_DP_FINTYP1>Conventional</GC2_DP_FINTYP1>
+							<GC2_EX_OTHCONC/>
+							<GC2_EX_CONCAMT>100000</GC2_EX_CONCAMT>
+							<GC2_FN_CONC2_ADJ>0</GC2_FN_CONC2_ADJ>
+							<GC2_DT_SALTIM1>s02/13;c01/13</GC2_DT_SALTIM1>
+							<GC2_DP_CMPTYPE>Settled sale</GC2_DP_CMPTYPE>
+							<GC2_EX_CONTKWN>X</GC2_EX_CONTKWN>
+							<GC2_EX_CONTUNK/>
+							<GC2_EX_CONTDATE>01/13</GC2_EX_CONTDATE>
+							<GC2_EX_SETTDATE>02/13</GC2_EX_SETTDATE>
+							<GC2_EX_WTDRDATE/>
+							<GC2_EX_EXPRDATE/>
+							<GC2_DT_SALTIM1_ADJ/>
+							<GC2_LC_LOCAT1>B;WtrFr;Res</GC2_LC_LOCAT1>
+							<GC2_DP_LOCAT>Beneficial</GC2_DP_LOCAT>
+							<GC2_DP_LOC1>Water Front</GC2_DP_LOC1>
+							<GC2_EX_LOC1OTH/>
+							<GC2_DP_LOC2>Residential</GC2_DP_LOC2>
+							<GC2_EX_LOC2OTH/>
+							<GC2_LC_LOCAT1_ADJ/>
+							<GC2_RG_RIGHTS>Fee Simple</GC2_RG_RIGHTS>
+							<GC2_RG_RIGHTS_ADJ/>
+							<GC2_ST_SITSIZE>16,117 sf</GC2_ST_SITSIZE>
+							<GC2_ST_SITSIZE_ADJ>+108,900</GC2_ST_SITSIZE_ADJ>
+							<GC2_ST_SITEVW>B;Wtr;</GC2_ST_SITEVW>
+							<GC2_DP_SITVW1>Beneficial</GC2_DP_SITVW1>
+							<GC2_DP_SITVW2>Water</GC2_DP_SITVW2>
+							<GC2_EX_SITVWO2/>
+							<GC2_DP_SITVW3/>
+							<GC2_EX_SITVWO3/>
+							<GC2_ST_SITEVW_ADJ/>
+							<GC2_DA_DESAPL1>Villa</GC2_DA_DESAPL1>
+							<GC2_DA_DESAPL1_ADJ/>
+							<GC2_DA_CONSTQL>Q2</GC2_DA_CONSTQL>
+							<GC2_DA_CONSTQL_ADJ/>
+							<GC2_AG_AGYRBLT>17</GC2_AG_AGYRBLT>
+							<GC2_AG_AGYRBLT_ADJ/>
+							<GC2_AG_COND1>C2</GC2_AG_COND1>
+							<GC2_AG_COND1_ADJ/>
+							<GC2_RM_BED_ADJ/>
+							<GC2_RM_TOTAL>13</GC2_RM_TOTAL>
+							<GC2_RM_BED>5</GC2_RM_BED>
+							<GC2_RM_BATH>6.1</GC2_RM_BATH>
+							<GC2_RM_TOTAL_ADJ>+10,000</GC2_RM_TOTAL_ADJ>
+							<GC2_SF_GLA>5,112</GC2_SF_GLA>
+							<GC2_SF_GLA_ADJ>+116,393</GC2_SF_GLA_ADJ>
+							<GC2_BM_BSM1>0sf</GC2_BM_BSM1>
+							<GC2_EX_BSMSF>0</GC2_EX_BSMSF>
+							<GC2_EX_BSMFIN>0</GC2_EX_BSMFIN>
+							<GC2_DP_BSMEXIT/>
+							<GC2_BM_BSM1_ADJ/>
+							<GC2_BM_BSM2/>
+							<GC2_EX_BSMRECRM>0</GC2_EX_BSMRECRM>
+							<GC2_EX_BSMBED>0</GC2_EX_BSMBED>
+							<GC2_EX_BSMBATH>0.0</GC2_EX_BSMBATH>
+							<GC2_EX_BSMOTHRM>0</GC2_EX_BSMOTHRM>
+							<GC2_BM_BSM2_ADJ/>
+							<GC2_FU_FUNCTUT>Typical/Good</GC2_FU_FUNCTUT>
+							<GC2_FU_FUNCTUT_ADJ/>
+							<GC2_HC_HTCOOL>FWA/CAC</GC2_HC_HTCOOL>
+							<GC2_HC_HTCOOL_ADJ/>
+							<GC2_EE_EFFIC1>Typical</GC2_EE_EFFIC1>
+							<GC2_EE_EFFIC1_ADJ/>
+							<GC2_CR_GARPRK1>2 Car D.Garage</GC2_CR_GARPRK1>
+							<GC2_CR_GARPRK1_ADJ>0</GC2_CR_GARPRK1_ADJ>
+							<GC2_PF_PORPAT1>Cov Porch/Patio</GC2_PF_PORPAT1>
+							<GC2_PF_PORPAT1_ADJ/>
+							<GC2_BL_BLANK1>2 Indoor</GC2_BL_BLANK1>
+							<GC2_BL_BLANK1_ADJ>0</GC2_BL_BLANK1_ADJ>
+							<GC2_BL_BLANK2>Pool</GC2_BL_BLANK2>
+							<GC2_BL_BLANK2_ADJ>-10,000</GC2_BL_BLANK2_ADJ>
+							<GC2_BL_BLANK3/>
+							<GC2_BL_BLANK3_ADJ/>
+							<GC2_CHECKPOS_ADJ>X</GC2_CHECKPOS_ADJ>
+							<GC2_CHECKNEG_ADJ/>
+							<GC2_NETADJ_ADJ>225,293</GC2_NETADJ_ADJ>
+							<GC2_NETADJPCT_ADJ>9.0</GC2_NETADJPCT_ADJ>
+							<GC2_GRSADJPCT_ADJ>9.8</GC2_GRSADJPCT_ADJ>
+							<GC2_ADJSALEPRC_ADJ>2,725,293</GC2_ADJSALEPRC_ADJ>
+							<GC2_HS_PRIOR1/>
+							<GC2_HS_PRIOR2/>
+							<GC2_HS_PRIOR3>Okaloosa Cnty Online Rcds</GC2_HS_PRIOR3>
+							<GC2_HS_DSDATE>02/20/2013</GC2_HS_DSDATE>
+							<GC3_AD_ADDR1>3462 Scenic Highway 98</GC3_AD_ADDR1>
+							<GC3_AD_ADDR2>Destin, FL 32541</GC3_AD_ADDR2>
+							<GC3_DB_CITY>Destin</GC3_DB_CITY>
+							<GC3_DB_STATE>FL</GC3_DB_STATE>
+							<GC3_DB_ZIPCODE>32541</GC3_DB_ZIPCODE>
+							<GC3_PROX1>0.67 miles E</GC3_PROX1>
+							<GC3_PR_SALEPR1>3,750,000</GC3_PR_SALEPR1>
+							<GC3_PU_PERGLA>605.52</GC3_PU_PERGLA>
+							<GC3_SC_SOURCE1>OCAR#582584;DOM 123</GC3_SC_SOURCE1>
+							<GC3_EX_DATSRC1>OCAR#582584</GC3_EX_DATSRC1>
+							<GC3_EX_DOM>123</GC3_EX_DOM>
+							<GC3_SC_SOURCE2>Okaloosa Cnty Appraiser Record</GC3_SC_SOURCE2>
+							<GC3_FN_CONC1>ArmLth</GC3_FN_CONC1>
+							<GC3_FN_CONC1_ADJ/>
+							<GC3_FN_CONC2>Conv;75000</GC3_FN_CONC2>
+							<GC3_DP_FINTYP1>Conventional</GC3_DP_FINTYP1>
+							<GC3_EX_OTHCONC/>
+							<GC3_EX_CONCAMT>75000</GC3_EX_CONCAMT>
+							<GC3_FN_CONC2_ADJ>0</GC3_FN_CONC2_ADJ>
+							<GC3_DT_SALTIM1>s07/12;c05/12</GC3_DT_SALTIM1>
+							<GC3_DP_CMPTYPE>Settled sale</GC3_DP_CMPTYPE>
+							<GC3_EX_CONTKWN>X</GC3_EX_CONTKWN>
+							<GC3_EX_CONTUNK/>
+							<GC3_EX_CONTDATE>05/12</GC3_EX_CONTDATE>
+							<GC3_EX_SETTDATE>07/12</GC3_EX_SETTDATE>
+							<GC3_EX_WTDRDATE/>
+							<GC3_EX_EXPRDATE/>
+							<GC3_DT_SALTIM1_ADJ>+51,000</GC3_DT_SALTIM1_ADJ>
+							<GC3_LC_LOCAT1>B;WtrFr;Res</GC3_LC_LOCAT1>
+							<GC3_DP_LOCAT>Beneficial</GC3_DP_LOCAT>
+							<GC3_DP_LOC1>Water Front</GC3_DP_LOC1>
+							<GC3_EX_LOC1OTH/>
+							<GC3_DP_LOC2>Residential</GC3_DP_LOC2>
+							<GC3_EX_LOC2OTH/>
+							<GC3_LC_LOCAT1_ADJ/>
+							<GC3_RG_RIGHTS>Fee Simple</GC3_RG_RIGHTS>
+							<GC3_RG_RIGHTS_ADJ/>
+							<GC3_ST_SITSIZE>20777 sf</GC3_ST_SITSIZE>
+							<GC3_ST_SITSIZE_ADJ>0</GC3_ST_SITSIZE_ADJ>
+							<GC3_ST_SITEVW>B;Wtr;</GC3_ST_SITEVW>
+							<GC3_DP_SITVW1>Beneficial</GC3_DP_SITVW1>
+							<GC3_DP_SITVW2>Water</GC3_DP_SITVW2>
+							<GC3_EX_SITVWO2/>
+							<GC3_DP_SITVW3/>
+							<GC3_EX_SITVWO3/>
+							<GC3_ST_SITEVW_ADJ/>
+							<GC3_DA_DESAPL1>Villa</GC3_DA_DESAPL1>
+							<GC3_DA_DESAPL1_ADJ/>
+							<GC3_DA_CONSTQL>Q2</GC3_DA_CONSTQL>
+							<GC3_DA_CONSTQL_ADJ/>
+							<GC3_AG_AGYRBLT>17</GC3_AG_AGYRBLT>
+							<GC3_AG_AGYRBLT_ADJ/>
+							<GC3_AG_COND1>C2</GC3_AG_COND1>
+							<GC3_AG_COND1_ADJ/>
+							<GC3_RM_BED_ADJ/>
+							<GC3_RM_TOTAL>14</GC3_RM_TOTAL>
+							<GC3_RM_BED>7</GC3_RM_BED>
+							<GC3_RM_BATH>7.1</GC3_RM_BATH>
+							<GC3_RM_TOTAL_ADJ>-7,500</GC3_RM_TOTAL_ADJ>
+							<GC3_SF_GLA>6,193</GC3_SF_GLA>
+							<GC3_SF_GLA_ADJ>-314,084</GC3_SF_GLA_ADJ>
+							<GC3_BM_BSM1>0sf</GC3_BM_BSM1>
+							<GC3_EX_BSMSF>0</GC3_EX_BSMSF>
+							<GC3_EX_BSMFIN>0</GC3_EX_BSMFIN>
+							<GC3_DP_BSMEXIT/>
+							<GC3_BM_BSM1_ADJ/>
+							<GC3_BM_BSM2/>
+							<GC3_EX_BSMRECRM>0</GC3_EX_BSMRECRM>
+							<GC3_EX_BSMBED>0</GC3_EX_BSMBED>
+							<GC3_EX_BSMBATH>0.0</GC3_EX_BSMBATH>
+							<GC3_EX_BSMOTHRM>0</GC3_EX_BSMOTHRM>
+							<GC3_BM_BSM2_ADJ/>
+							<GC3_FU_FUNCTUT>Typical/Good</GC3_FU_FUNCTUT>
+							<GC3_FU_FUNCTUT_ADJ/>
+							<GC3_HC_HTCOOL>FWA/CAC</GC3_HC_HTCOOL>
+							<GC3_HC_HTCOOL_ADJ/>
+							<GC3_EE_EFFIC1>Typical</GC3_EE_EFFIC1>
+							<GC3_EE_EFFIC1_ADJ/>
+							<GC3_CR_GARPRK1>3 Car A.Garage</GC3_CR_GARPRK1>
+							<GC3_CR_GARPRK1_ADJ>-12,500</GC3_CR_GARPRK1_ADJ>
+							<GC3_PF_PORPAT1>Cov Porch/Patio</GC3_PF_PORPAT1>
+							<GC3_PF_PORPAT1_ADJ/>
+							<GC3_BL_BLANK1>1 In, 1 Out</GC3_BL_BLANK1>
+							<GC3_BL_BLANK1_ADJ/>
+							<GC3_BL_BLANK2>Pool &amp; Spa</GC3_BL_BLANK2>
+							<GC3_BL_BLANK2_ADJ>-20,000</GC3_BL_BLANK2_ADJ>
+							<GC3_BL_BLANK3/>
+							<GC3_BL_BLANK3_ADJ/>
+							<GC3_CHECKPOS_ADJ/>
+							<GC3_CHECKNEG_ADJ>X</GC3_CHECKNEG_ADJ>
+							<GC3_NETADJ_ADJ>-303,084</GC3_NETADJ_ADJ>
+							<GC3_NETADJPCT_ADJ>8.1</GC3_NETADJPCT_ADJ>
+							<GC3_GRSADJPCT_ADJ>10.8</GC3_GRSADJPCT_ADJ>
+							<GC3_ADJSALEPRC_ADJ>3,446,916</GC3_ADJSALEPRC_ADJ>
+							<GC3_HS_PRIOR1/>
+							<GC3_HS_PRIOR2/>
+							<GC3_HS_PRIOR3>Okaloosa Cnty Online Rcds</GC3_HS_PRIOR3>
+							<GC3_HS_DSDATE>02/20/2013</GC3_HS_DSDATE>
+							<HISTRESRCH_YES>X</HISTRESRCH_YES>
+							<HISTRESRCH_NO/>
+							<HIST1YR_NO_TXT/>
+							<SUBSALE3YR_YES/>
+							<SUBSALE3YR_NO>X</SUBSALE3YR_NO>
+							<SUBHIST3YR_DSDATE>Okaloosa County Property Appraiser online record search</SUBHIST3YR_DSDATE>
+							<CMPSALE1YR_YES/>
+							<CMPSALE1YR_NO>X</CMPSALE1YR_NO>
+							<CMPHIST1YR_DSDATE>Okaloosa County Property Appraiser online record search</CMPHIST1YR_DSDATE>
+							<CMPHIST_TXT1>Per a search of the Okaloosa County Property Appraiser online property records, the subject has had no transfers in the past 3 years and the comparables have had no transfers in the previous 12 months.</CMPHIST_TXT1>
+							<SCMCOMMENTS_1>Sales recited are from subject market area and are in acceptable proximity to the subject. They are the most recent and most comparable homes found. All values affecting dissimilarities were adjusted according to market reaction.  Secondary market standards for net and gross adjustment percentages were met.  The indicated range of values brackets the value of the subject. The most weight was placed on comparables with the lowest gross % adjustments. The approximate weight given to each comparable is listed here: Comparable 1 - 31%, Comparable 2 - 26%, Comparable 3 - 22% and Comparable 4 - 21%.  No weight was given to comparables 5 and 6 as they are not closed sales and were added only to meet client specific requirements. An adjustment value of -6% was made on listing comparables and a -3% on pending comparables based on the median list/sales price ratio determined in the 1004MC form. Appraiser has a reconciled value as determined by the sales comparison approach of $3,100,000 in US Dollars.</SCMCOMMENTS_1>
+							<SCMINDVALUE2>3,100,000</SCMINDVALUE2>
+							<SCMINDVALUE>3,100,000</SCMINDVALUE>
+							<CSTINDVALUE2/>
+							<SCMINDVALINCOME2/>
+							<RECFINREC_1>Market actions of buyers and sellers are best analyzed by the Sales Comparison Approach.  The Cost Approach was not developed due to the age of the property. The Income Approach was not developed as the area is composed primarily of owner occupied properties.</RECFINREC_1>
+							<RECAPPR_ASIS>X</RECAPPR_ASIS>
+							<RECAPPR_PLANS/>
+							<RECAPPR_REPAIRS/>
+							<RECAPPR_INSPECT/>
+							<RECCONDITIONS_1/>
+							<RECESTMKTVALUE>3,100,000</RECESTMKTVALUE>
+							<RECINSPECTDATE>02/20/2013</RECINSPECTDATE>
+							<FOOTER2>Form 1004UAD - "TOTAL" appraisal software by a la mode, inc. - 1-800-ALAMODE</FOOTER2>
+							<HEADERSUMMARYPHRASE3/>
+							<HEADERFILENUMBERLABEL3/>
+							<HEADERFILENUMBER3/>
+							<HEADERPAGENUMBER3/>
+							<OTHERFILENUMBER3>Feb. 2013 -08</OTHERFILENUMBER3>
+							<FNMA_FILENUMBER3>13-01032</FNMA_FILENUMBER3>
+							<GEN_COMMENTS_1>
+								Extraordinary Assumptions - The comparables used contain confidential information related to pricing, motivations, negotiations, concessions, fees, etc, that are not typically made known to those not a part of the agreement or closing. Even when provided an interview that confirms parts of a transaction, the values herein are based on the assumption that the data reported to the sources used is correct and reflects the specific marketable features. When more than one source is stated and there are differences in the levels/amounts of the features relevant for refinement, the source deemed most reliable and reflective of the comparable as of the date of that respective sale will be used for comparison.
+
+								Signature Certification - The digital signatures in this report are duplicates of the original signature(s) and have not been altered or changed in any way.
+
+								Intended User Certification - The Intended User of this appraisal report is the Client. The Intended Use is to obtain the market value of the property that is the subject of this appraisal for personal knowledge of the client, subject to the stated Scope of Work, purpose of the appraisal, reporting requirements of this appraisal report form, and Definition of Market Value. No additional Intended Users are identified by the appraiser.
+
+								Software Certification - Any and all references in this (TOTAL) software regarding clients, intended users, intended use, definition of value, assignment conditions, relevant characteristics, scope or work performed, and/or any other conditions / assumptions relative to this assignment are superseded by data expressly entered by the appraiser, respectively.
+
+								Definition/Source of Value - The purpose of this report is to properly relay the appraisal analysis, opinions, and conclusions in a manner that is objective, impartial, and independent. The value being developed is the most common representation of this arena participant - market value. By definition, market value is the most probable price a property or properties should bring in an open competitive market under conditions requisite to a fair impartial sale where the buyer and seller are both acting knowledgeably and in their own best interest and assuming the price is not affected by unique stimulus or external forces. Implicit in this definition is the consummation of a sale as of a specified date and the passing of title from seller to buyer under conditions whereby: 1. The buyer and seller are typically motivated, 2. Both parties are knowledgeable and acting in their own best interests, 3. a reasonable time is allowed for the property to be exposed to an open and competitive sale arena, 4. Payment is made in terms of US cash or equivalent or in terms of financial arrangements comparable thereto, and 5. The price represents the normal consideration for the property sold unaffected by special or creative financing or sale concessions granted by anyone associated with the sale. This definition is from regulations published by federal regulatory agencies pursuant to Title XI of the Financial Institutions Reform, Recovery, and Enforcement Act (FIRREA) of 1989 between July and August 1990, by the Federal Reserve System (FRS), by the National Credit Union Administration, (NCUA), by the Federal Deposit Insurance Corporation (FDIC), by the Office of Comptroller of the Currency (OCC), and by the Office of Thrift Supervision (OTS), being further referenced in regulations jointly published in 1994.
+
+								Scope of Work - The scope of work for this appraisal was defined by the complexity of this appraisal assignment and the reporting requirements of this appraisal report form, including the following definition of market value, statement of assumptions and limiting conditions, and certifications. I, the appraiser (1) performed a complete visual inspection of the interior and exterior areas of the subject property, (2) inspected the neighborhood, (3) inspected each of the comparable sales from at least the street, (4) researched, verified, and analyzed data from reliable public and/or private sources, and (5) reported my analysis, opinions, and conclusions in this appraisal report. The supervising appraiser has inspected the property at a previous date and did not do another onsite inspection.
+							</GEN_COMMENTS_1>
+							<SITE_OPINION_1/>
+							<CST_REPRODUCTION/>
+							<CST_REPLACEMENT/>
+							<CST_DATASRC/>
+							<CST_SERVQUAL/>
+							<CST_DATADATE/>
+							<CSTESTSITEVAL/>
+							<CSTDWELLSF/>
+							<USECOSTAPPR_YES/>
+							<CSTDWELLPPSF/>
+							<CSTDWELLCOST/>
+							<CSTOTHER_DESC/>
+							<CSTOTHERSF/>
+							<CSTOTHERPPSF/>
+							<CSTOTHERCOST/>
+							<CSTOTHER2_DESC/>
+							<CSTOTHER2SF/>
+							<CSTOTHER2PPSF/>
+							<CSTOTHER2COST/>
+							<CSTEXTRAS/>
+							<CSTEXTRASCOST/>
+							<CSTGARCPTSF/>
+							<CSTGARCPTPPSF/>
+							<CSTGARCPTCOST/>
+							<CSTCOSTNEW_TEXT/>
+							<CSTTOTCOSTNEW/>
+							<CF_CA_AGE/>
+							<CF_CA_LIFESPAN/>
+							<CSTPHYSDEPR/>
+							<CSTPHYSDEPRLUMP/>
+							<CSTFUNCDEPR/>
+							<CSTFUNCDEPRLUMP/>
+							<CSTEXTNDEPR/>
+							<CSTEXTNDEPRLUMP/>
+							<CSTPHYSDEPR2/>
+							<CSTFUNCDEPR2/>
+							<CSTEXTNDEPR2/>
+							<CSTTOTALDEPR/>
+							<CSTDEPRVALUE/>
+							<CSTASISVALUE/>
+							<CSTOTHVAL_DESC/>
+							<CSTOTHVAL_LBL/>
+							<CSTOTHERVALUE/>
+							<CSTINDVALUE/>
+							<CSTCOMMENTS_1/>
+							<ESTREMECONLIFE/>
+							<SCMESTMKTRENT/>
+							<SCMGRM/>
+							<SCMINDVALINCOME/>
+							<VALINCOME_COMMENTS/>
+							<PUDHOA_YES/>
+							<PUDHOA_NO/>
+							<PUD_DETACHED/>
+							<PUD_ATTACHED/>
+							<SUBPROJNAMEPUD/>
+							<PUDTOTALPHASES/>
+							<PUDTOTALUNITS/>
+							<PUDTOTALUNITSSOLD/>
+							<PUDTOTALUNITSRENT/>
+							<PUDUNITSFORSALE/>
+							<PUDRNTDATASRC/>
+							<PUDEXTBLDG_YES/>
+							<PUDEXTBLDG_NO/>
+							<PUDCONVRSN_DT/>
+							<PUDMUTIDWLNG_YES/>
+							<PUDMUTIDWLNG_NO/>
+							<PUDMUTIDWLING_SRC/>
+							<PUDCOMELEMNT_YES/>
+							<PUDCOMELEMNT_NO/>
+							<PUDSTAT_COMPLTN/>
+							<PUDELEMNTLEASTYES/>
+							<PUDELEMNTLEASTNO/>
+							<PUDELEMNTLEASTERMS/>
+							<PUDCOMELEMENTS/>
+							<FOOTER3>Form 1004UAD - "TOTAL" appraisal software by a la mode, inc. - 1-800-ALAMODE</FOOTER3>
+							<HEADERSUMMARYPHRASE4/>
+							<HEADERFILENUMBERLABEL4/>
+							<HEADERFILENUMBER4/>
+							<HEADERPAGENUMBER4/>
+							<OTHERFILENUMBER4>Feb. 2013 -08</OTHERFILENUMBER4>
+							<FNMA_FILENUMBER4>13-01032</FNMA_FILENUMBER4>
+							<FOOTER4>Form 1004UAD - "TOTAL" appraisal software by a la mode, inc. - 1-800-ALAMODE</FOOTER4>
+							<HEADERSUMMARYPHRASE5/>
+							<HEADERFILENUMBERLABEL5/>
+							<HEADERFILENUMBER5/>
+							<HEADERPAGENUMBER5/>
+							<OTHERFILENUMBER5>Feb. 2013 -08</OTHERFILENUMBER5>
+							<FNMA_FILENUMBER5>13-01032</FNMA_FILENUMBER5>
+							<FOOTER5>Form 1004UAD - "TOTAL" appraisal software by a la mode, inc. - 1-800-ALAMODE</FOOTER5>
+							<HEADERSUMMARYPHRASE6/>
+							<HEADERFILENUMBERLABEL6/>
+							<HEADERFILENUMBER6/>
+							<HEADERPAGENUMBER6/>
+							<OTHERFILENUMBER6>Feb. 2013 -08</OTHERFILENUMBER6>
+							<FNMA_FILENUMBER6>13-01032</FNMA_FILENUMBER6>
+							<SIGNATURESEAL/>
+							<SIGNATURE/>
+							<SIGNATURESEALB/>
+							<SIGNATUREB/>
+							<RECAPPRID_TEXT/>
+							<RECAPPRSIG_TEXT/>
+							<SUBAPPRAISER>Ellen Walker</SUBAPPRAISER>
+							<RECAPPRCOMPANYNAME>Beach Appraisals</RECAPPRCOMPANYNAME>
+							<APPRCMPCOMBADDR1>9123 Palm St, Suite 101</APPRCMPCOMBADDR1>
+							<APPRCMPCOMBADDR2>Destin, FL 32541</APPRCMPCOMBADDR2>
+							<SUBAPPRPHONE>(800) 555-2160</SUBAPPRPHONE>
+							<SUBAPPREMAIL>info@BeachAppraisals.com</SUBAPPREMAIL>
+							<RECAPPRSIGNDATE>02/28/2013</RECAPPRSIGNDATE>
+							<RECEFFECTDATE>02/20/2013</RECEFFECTDATE>
+							<RECAPPRCERT>RDZ123456</RECAPPRCERT>
+							<RECAPPRLIC/>
+							<RECAPPROTHLICTYPE/>
+							<RECAPPROTHLIC/>
+							<RECAPPRCERTLICST>FL</RECAPPRCERTLICST>
+							<RECAPPCERTLICEXPDAT>11/30/2014</RECAPPCERTLICEXPDAT>
+							<RECPROPADDRESS1>1004MC</RECPROPADDRESS1>
+							<RECPROPADDRESS2>Destin, FL 32541</RECPROPADDRESS2>
+							<RECESTMKTVALUE2>3,100,000</RECESTMKTVALUE2>
+							<AMCNAME>No AMC</AMCNAME>
+							<SUBLENCLIENT2>Baytown Mortgage</SUBLENCLIENT2>
+							<LCCOMBADDRESS>723 North Tyndall Parkway, Suite 101, Panama City, FL 32404</LCCOMBADDRESS>
+							<PLACEHOLDER1/>
+							<LENDEREMAIL>Info@BaytownMortgage.net</LENDEREMAIL>
+							<RECSUPSIG_TEXT/>
+							<RECSUPNAME/>
+							<RECSUPCOMPANYNAME/>
+							<SUPRCMPCOMBADDR1/>
+							<SUPRCMPCOMBADDR2/>
+							<SUBSUPPHONE/>
+							<SUBSUPEMAIL/>
+							<RECSUPSIGNDATE/>
+							<RECSUPCERT/>
+							<RECSUPLIC/>
+							<RECSUPCERTLICST/>
+							<RECSUPCERTLICEXPDAT/>
+							<RECSUPINSP_DIDNOT/>
+							<RECSUPINS_EXT/>
+							<SUPSUBINSPEXTDAT/>
+							<RECSUPINS_EXTINT/>
+							<SUPSUBINSPINTEXTDAT/>
+							<SUPINS_COMP_NO/>
+							<SUPINS_COMP_YES/>
+							<SUPCMPINSPEXTDAT/>
+							<FOOTER6>Form 1004UAD - "TOTAL" appraisal software by a la mode, inc. - 1-800-ALAMODE</FOOTER6>
+							<GARSKTAREA>722</GARSKTAREA>
+							<LENDERADDRESS2>Suite 101</LENDERADDRESS2>
+							<SUBCLIENT>Baytown Mortgage</SUBCLIENT>
+							<DH_CONTRANAL>Arms length sale</DH_CONTRANAL>
+							<DH_SITVW1>B</DH_SITVW1>
+							<DH_SITVW2>Wtr</DH_SITVW2>
+							<DH_SITVW3/>
+							<DH_OVRLCOND>C2</DH_OVRLCOND>
+							<DH_KITTYP>updated</DH_KITTYP>
+							<DH_KITAGE>one to five years ago</DH_KITAGE>
+							<DH_BATHTYP>updated</DH_BATHTYP>
+							<DH_BATHAGE>one to five years ago</DH_BATHAGE>
+							<GC1_DH_FINTYP1>Conv</GC1_DH_FINTYP1>
+							<GC2_DH_FINTYP1>Conv</GC2_DH_FINTYP1>
+							<GC3_DH_FINTYP1>Conv</GC3_DH_FINTYP1>
+							<GC1_DH_CMPTYPE>s</GC1_DH_CMPTYPE>
+							<GC2_DH_CMPTYPE>s</GC2_DH_CMPTYPE>
+							<GC3_DH_CMPTYPE>s</GC3_DH_CMPTYPE>
+							<GSU_DH_LOCAT>B</GSU_DH_LOCAT>
+							<GSU_DH_LOC1>WtrFr</GSU_DH_LOC1>
+							<GSU_DH_LOC2>Res</GSU_DH_LOC2>
+							<GC1_DH_LOCAT>B</GC1_DH_LOCAT>
+							<GC1_DH_LOC1>WtrFr</GC1_DH_LOC1>
+							<GC1_DH_LOC2>Res</GC1_DH_LOC2>
+							<GC2_DH_LOCAT>B</GC2_DH_LOCAT>
+							<GC2_DH_LOC1>WtrFr</GC2_DH_LOC1>
+							<GC2_DH_LOC2>Res</GC2_DH_LOC2>
+							<GC3_DH_LOCAT>B</GC3_DH_LOCAT>
+							<GC3_DH_LOC1>WtrFr</GC3_DH_LOC1>
+							<GC3_DH_LOC2>Res</GC3_DH_LOC2>
+							<GC1_DH_SITVW1>B</GC1_DH_SITVW1>
+							<GC2_DH_SITVW1>B</GC2_DH_SITVW1>
+							<GC3_DH_SITVW1>B</GC3_DH_SITVW1>
+							<GC1_DH_SITVW2>Wtr</GC1_DH_SITVW2>
+							<GC2_DH_SITVW2>Wtr</GC2_DH_SITVW2>
+							<GC3_DH_SITVW2>Wtr</GC3_DH_SITVW2>
+							<GC1_DH_SITVW3/>
+							<GC2_DH_SITVW3/>
+							<GC3_DH_SITVW3/>
+							<GSU_DH_BSMEXIT/>
+							<GC1_DH_BSMEXIT/>
+							<GC2_DH_BSMEXIT/>
+							<GC3_DH_BSMEXIT/>
+							<SUBAPPRADDRESS1>9123 Palm St</SUBAPPRADDRESS1>
+							<SUBAPPRADDRESS2>Suite 101</SUBAPPRADDRESS2>
+							<SUBAPPRCITY>Destin</SUBAPPRCITY>
+							<SUBAPPRST>FL</SUBAPPRST>
+							<SUBAPPRZIP>32541</SUBAPPRZIP>
+							<SUBSUPADDRESS1/>
+							<SUBSUPADDRESS2/>
+							<SUBSUPCITY/>
+							<SUBSUPST/>
+							<SUBSUPZIP/>
+							<LENDERCONTACT>Alice Gibbons</LENDERCONTACT>
+							<RECAPPRCMPADDRESS1>9123 Palm St, Suite 101, Destin, FL 32541</RECAPPRCMPADDRESS1>
+							<GSU_DT_DAYSMKT>174</GSU_DT_DAYSMKT>
+							<RECSUPCMPADDRESS1/>
+							<GSU_DH_SITVW1>B</GSU_DH_SITVW1>
+							<GSU_DH_SITVW2>Wtr</GSU_DH_SITVW2>
+							<GSU_DH_SITVW3/>
+							<GSU_DH_FINTYP1/>
+							<GSU_DH_CMPTYPE/>
+							<GC1_DP_FINTYP1_ADJ/>
+							<GC2_DP_FINTYP1_ADJ/>
+							<GC3_DP_FINTYP1_ADJ/>
+							<GC1_DP_CMPTYPE_ADJ/>
+							<GC2_DP_CMPTYPE_ADJ/>
+							<GC3_DP_CMPTYPE_ADJ/>
+							<GC1_EX_CONTDATE_ADJ/>
+							<GC2_EX_CONTDATE_ADJ/>
+							<GC3_EX_CONTDATE_ADJ/>
+							<GC1_EX_SETTDATE_ADJ/>
+							<GC2_EX_SETTDATE_ADJ/>
+							<GC3_EX_SETTDATE_ADJ/>
+							<GC1_EX_WTDRDATE_ADJ/>
+							<GC2_EX_WTDRDATE_ADJ/>
+							<GC3_EX_WTDRDATE_ADJ/>
+							<GC1_EX_EXPRDATE_ADJ/>
+							<GC2_EX_EXPRDATE_ADJ/>
+							<GC3_EX_EXPRDATE_ADJ/>
+							<GC1_DP_LOCAT_ADJ/>
+							<GC1_DP_LOC1_ADJ/>
+							<GC1_DP_LOC2_ADJ/>
+							<GC2_DP_LOCAT_ADJ/>
+							<GC2_DP_LOC1_ADJ/>
+							<GC2_DP_LOC2_ADJ/>
+							<GC3_DP_LOCAT_ADJ/>
+							<GC3_DP_LOC1_ADJ/>
+							<GC3_DP_LOC2_ADJ/>
+							<GC1_DP_SITVW1_ADJ/>
+							<GC2_DP_SITVW1_ADJ/>
+							<GC3_DP_SITVW1_ADJ/>
+							<GC1_DP_SITVW2_ADJ/>
+							<GC2_DP_SITVW2_ADJ/>
+							<GC3_DP_SITVW2_ADJ/>
+							<GC1_DP_SITVW3_ADJ/>
+							<GC2_DP_SITVW3_ADJ/>
+							<GC3_DP_SITVW3_ADJ/>
+							<GSU_DB_ACTAGE>17</GSU_DB_ACTAGE>
+							<GSU_DB_EFFAGE>10</GSU_DB_EFFAGE>
+							<GC1_DB_ACTAGE/>
+							<GC1_DB_ACTAGE_ADJ/>
+							<GC1_DB_EFFAGE/>
+							<GC1_DB_EFFAGE_ADJ/>
+							<GC2_DB_ACTAGE/>
+							<GC2_DB_ACTAGE_ADJ/>
+							<GC2_DB_EFFAGE/>
+							<GC2_DB_EFFAGE_ADJ/>
+							<GC3_DB_ACTAGE/>
+							<GC3_DB_ACTAGE_ADJ/>
+							<GC3_DB_EFFAGE/>
+							<GC3_DB_EFFAGE_ADJ/>
+							<GSU_RM_XTOTAL>13</GSU_RM_XTOTAL>
+							<GSU_RM_XBED>5</GSU_RM_XBED>
+							<GSU_RM_XBATH>6.2</GSU_RM_XBATH>
+							<GC1_RM_XTOTAL>15</GC1_RM_XTOTAL>
+							<GC1_RM_XTOTAL_ADJ/>
+							<GC1_RM_XBED>7</GC1_RM_XBED>
+							<GC1_RM_XBED_ADJ/>
+							<GC1_RM_XBATH>7.0</GC1_RM_XBATH>
+							<GC1_RM_XBATH_ADJ/>
+							<GC2_RM_XTOTAL>13</GC2_RM_XTOTAL>
+							<GC2_RM_XTOTAL_ADJ/>
+							<GC2_RM_XBED>5</GC2_RM_XBED>
+							<GC2_RM_XBED_ADJ/>
+							<GC2_RM_XBATH>6.1</GC2_RM_XBATH>
+							<GC2_RM_XBATH_ADJ/>
+							<GC3_RM_XTOTAL>14</GC3_RM_XTOTAL>
+							<GC3_RM_XTOTAL_ADJ/>
+							<GC3_RM_XBED>7</GC3_RM_XBED>
+							<GC3_RM_XBED_ADJ/>
+							<GC3_RM_XBATH>7.1</GC3_RM_XBATH>
+							<GC3_RM_XBATH_ADJ/>
+							<GSU_RM_FBATH>6</GSU_RM_FBATH>
+							<GSU_RM_HBATH>2</GSU_RM_HBATH>
+							<GC1_RM_FBATH>7</GC1_RM_FBATH>
+							<GC1_RM_FBATH_ADJ>-17,500</GC1_RM_FBATH_ADJ>
+							<GC1_RM_HBATH>0</GC1_RM_HBATH>
+							<GC1_RM_HBATH_ADJ>+20,000</GC1_RM_HBATH_ADJ>
+							<GC2_RM_FBATH>6</GC2_RM_FBATH>
+							<GC2_RM_FBATH_ADJ/>
+							<GC2_RM_HBATH>1</GC2_RM_HBATH>
+							<GC2_RM_HBATH_ADJ>+10,000</GC2_RM_HBATH_ADJ>
+							<GC3_RM_FBATH>7</GC3_RM_FBATH>
+							<GC3_RM_FBATH_ADJ>-17,500</GC3_RM_FBATH_ADJ>
+							<GC3_RM_HBATH>1</GC3_RM_HBATH>
+							<GC3_RM_HBATH_ADJ>+10,000</GC3_RM_HBATH_ADJ>
+							<GC1_EX_BSMSF_ADJ/>
+							<GC1_EX_BSMFIN_ADJ/>
+							<GC1_DP_BSMEXIT_ADJ/>
+							<GC2_EX_BSMSF_ADJ/>
+							<GC2_EX_BSMFIN_ADJ/>
+							<GC2_DP_BSMEXIT_ADJ/>
+							<GC3_EX_BSMSF_ADJ/>
+							<GC3_EX_BSMFIN_ADJ/>
+							<GC3_DP_BSMEXIT_ADJ/>
+							<GSU_EX_BSMFBATH>0</GSU_EX_BSMFBATH>
+							<GSU_EX_BSMHBATH>0</GSU_EX_BSMHBATH>
+							<GC1_EX_BSMFBATH>0</GC1_EX_BSMFBATH>
+							<GC1_EX_BSMFBATH_ADJ/>
+							<GC1_EX_BSMHBATH>0</GC1_EX_BSMHBATH>
+							<GC1_EX_BSMHBATH_ADJ/>
+							<GC1_EX_BSMOTHRM_ADJ/>
+							<GC2_EX_BSMFBATH>0</GC2_EX_BSMFBATH>
+							<GC2_EX_BSMFBATH_ADJ/>
+							<GC2_EX_BSMHBATH>0</GC2_EX_BSMHBATH>
+							<GC2_EX_BSMHBATH_ADJ/>
+							<GC2_EX_BSMOTHRM_ADJ/>
+							<GC3_EX_BSMFBATH>0</GC3_EX_BSMFBATH>
+							<GC3_EX_BSMFBATH_ADJ/>
+							<GC3_EX_BSMHBATH>0</GC3_EX_BSMHBATH>
+							<GC3_EX_BSMHBATH_ADJ/>
+							<GC3_EX_BSMOTHRM_ADJ/>
+							<GSU_DB_HEAT/>
+							<GSU_DB_COOL/>
+							<GC1_DB_HEAT/>
+							<GC1_DB_HEAT_ADJ/>
+							<GC1_DB_COOL/>
+							<GC1_DB_COOL_ADJ/>
+							<GC2_DB_HEAT/>
+							<GC2_DB_HEAT_ADJ/>
+							<GC2_DB_COOL/>
+							<GC2_DB_COOL_ADJ/>
+							<GC3_DB_HEAT/>
+							<GC3_DB_HEAT_ADJ/>
+							<GC3_DB_COOL/>
+							<GC3_DB_COOL_ADJ/>
+							<GSU_DB_GAR1/>
+							<GSU_DB_GAR2/>
+							<GC1_DB_GAR1/>
+							<GC1_DB_GAR1_ADJ/>
+							<GC1_DB_GAR2/>
+							<GC1_DB_GAR2_ADJ/>
+							<GC2_DB_GAR1/>
+							<GC2_DB_GAR1_ADJ/>
+							<GC2_DB_GAR2/>
+							<GC2_DB_GAR2_ADJ/>
+							<GC3_DB_GAR1/>
+							<GC3_DB_GAR1_ADJ/>
+							<GC3_DB_GAR2/>
+							<GC3_DB_GAR2_ADJ/>
+							<GSU_DB_PORCH/>
+							<GSU_DB_PATIO/>
+							<GSU_DB_DECK/>
+							<GC1_DB_PORCH/>
+							<GC1_DB_PORCH_ADJ/>
+							<GC1_DB_PATIO/>
+							<GC1_DB_PATIO_ADJ/>
+							<GC1_DB_DECK/>
+							<GC1_DB_DECK_ADJ/>
+							<GC2_DB_PORCH/>
+							<GC2_DB_PORCH_ADJ/>
+							<GC2_DB_PATIO/>
+							<GC2_DB_PATIO_ADJ/>
+							<GC2_DB_DECK/>
+							<GC2_DB_DECK_ADJ/>
+							<GC3_DB_PORCH/>
+							<GC3_DB_PORCH_ADJ/>
+							<GC3_DB_PATIO/>
+							<GC3_DB_PATIO_ADJ/>
+							<GC3_DB_DECK/>
+							<GC3_DB_DECK_ADJ/>
+							<GC1_EX_CONCAMT_ADJ/>
+							<GC2_EX_CONCAMT_ADJ/>
+							<GC3_EX_CONCAMT_ADJ/>
+							<GC1_EX_BSMRECRM_ADJ/>
+							<GC2_EX_BSMRECRM_ADJ/>
+							<GC3_EX_BSMRECRM_ADJ/>
+							<GC1_EX_BSMBED_ADJ/>
+							<GC2_EX_BSMBED_ADJ/>
+							<GC3_EX_BSMBED_ADJ/>
+							<GC1_LATITUDE>30.3804601728916</GC1_LATITUDE>
+							<GC1_LONGITUDE>-86.4061188697815</GC1_LONGITUDE>
+							<GC1_GEOMATCH>1</GC1_GEOMATCH>
+							<GC1_ID/>
+							<GC1_MARKETAREA>Sunny Beach Isle</GC1_MARKETAREA>
+							<GC1_ADDRESSVALIDATED>1</GC1_ADDRESSVALIDATED>
+							<GC2_LATITUDE>30.3813546895981</GC2_LATITUDE>
+							<GC2_LONGITUDE>-86.4137873053551</GC2_LONGITUDE>
+							<GC2_GEOMATCH>1</GC2_GEOMATCH>
+							<GC2_ID/>
+							<GC2_MARKETAREA>Blue Tide Way</GC2_MARKETAREA>
+							<GC2_ADDRESSVALIDATED>1</GC2_ADDRESSVALIDATED>
+							<GC3_LATITUDE>30.3797283172607</GC3_LATITUDE>
+							<GC3_LONGITUDE>-86.401252746582</GC3_LONGITUDE>
+							<GC3_GEOMATCH>1</GC3_GEOMATCH>
+							<GC3_ID/>
+							<GC3_MARKETAREA>Shores of Sunny Beach</GC3_MARKETAREA>
+							<GC3_ADDRESSVALIDATED>1</GC3_ADDRESSVALIDATED>
+							<GSU_LATITUDE/>
+							<GSU_LONGITUDE/>
+							<GSU_GEOMATCH/>
+							<GSU_ID/>
+							<GSU_MARKETAREA>Shores of Sunny Beach</GSU_MARKETAREA>
+							<GSU_ADDRESSVALIDATED>1</GSU_ADDRESSVALIDATED>
+						</FIELDS>
+						<FORMPHOTOS />
+						<ATTACHMENTS />
+					</FORM>
+					<!-- 104MC FORM !-->
+					<FORM NUM="2" FORMCODE="1004MC2" SECCODE="1" DESC="Market Conditions Addendum to the Appraisal Report [Form 1004MC][03/09]" MAJOR="False" FONTNAME="" FONTSIZE="" FORECOLOR="000000" BACKCOLOR="FFFFFF" BOLD="False" ITALIC="False" UNDERLINE="False">
+						<FIELDS>
+							<HEADERSUMMARYPHRASE1/>
+							<HEADERFILENUMBERLABEL1/>
+							<HEADERFILENUMBER1/>
+							<HEADERPAGENUMBER1/>
+							<OTHERFILENUMBER>Feb. 2013 -08</OTHERFILENUMBER>
+							<FNMA_FILENUMBER>13-01032</FNMA_FILENUMBER>
+							<SUBPROPADDRESS>1004MC</SUBPROPADDRESS>
+							<SUBCITY>Destin</SUBCITY>
+							<SUBSTATE>FL</SUBSTATE>
+							<SUBZIP>32541</SUBZIP>
+							<SUBBORROWER>Jones, Frank &amp; Sally</SUBBORROWER>
+							<SETSALES_7_12MO>4</SETSALES_7_12MO>
+							<ABSORPRT_7_12MO>.67</ABSORPRT_7_12MO>
+							<ACTIVELIST_7_12MO>na</ACTIVELIST_7_12MO>
+							<SUPPLYMOS_7_12MO>na</SUPPLYMOS_7_12MO>
+							<MEDCOMPSP_7_12MO>$2,860,000</MEDCOMPSP_7_12MO>
+							<MEDCOMPDOM_7_12MO>197</MEDCOMPDOM_7_12MO>
+							<MEDCOMPLP_7_12MO>na</MEDCOMPLP_7_12MO>
+							<MEDLISTDOM_7_12MO>na</MEDLISTDOM_7_12MO>
+							<MEDLIST2SALE_7_12MO>93</MEDLIST2SALE_7_12MO>
+							<L2S_NO/>
+							<L2S_PCT/>
+							<SETSALES_4_6MO>2</SETSALES_4_6MO>
+							<ABSORPRT_4_6MO>.67</ABSORPRT_4_6MO>
+							<ACTIVELIST_4_6MO>na</ACTIVELIST_4_6MO>
+							<SUPPLYMOS_4_6MO>na</SUPPLYMOS_4_6MO>
+							<MEDCOMPSP_4_6MO>$3,021,333</MEDCOMPSP_4_6MO>
+							<MEDCOMPDOM_4_6MO>207</MEDCOMPDOM_4_6MO>
+							<MEDCOMPLP_4_6MO>na</MEDCOMPLP_4_6MO>
+							<MEDLISTDOM_4_6MO>na</MEDLISTDOM_4_6MO>
+							<MEDLIST2SALE_4_6MO>95</MEDLIST2SALE_4_6MO>
+							<SETSALES_0_3MO>3</SETSALES_0_3MO>
+							<ABSORPRT_0_3MO>1.00</ABSORPRT_0_3MO>
+							<ACTIVELIST_0_3MO>10</ACTIVELIST_0_3MO>
+							<SUPPLYMOS_0_3MO>10.0</SUPPLYMOS_0_3MO>
+							<MEDCOMPSP_0_3MO>$3,000,000</MEDCOMPSP_0_3MO>
+							<MEDCOMPDOM_0_3MO>189</MEDCOMPDOM_0_3MO>
+							<MEDCOMPLP_0_3MO>$3,201,000</MEDCOMPLP_0_3MO>
+							<MEDLISTDOM_0_3MO>119</MEDLISTDOM_0_3MO>
+							<MEDLIST2SALE_0_3MO>94</MEDLIST2SALE_0_3MO>
+							<SETSALES_INCR/>
+							<SETSALES_STAB>X</SETSALES_STAB>
+							<SETSALES_DECL/>
+							<ABSORPRT_INCR/>
+							<ABSORPRT_STAB>X</ABSORPRT_STAB>
+							<ABSORPRT_DECL/>
+							<ACTIVELIST_DECL/>
+							<ACTIVELIST_STAB/>
+							<ACTIVELIST_INCR/>
+							<SUPPLYMOS_DECL/>
+							<SUPPLYMOS_STAB/>
+							<SUPPLYMOS_INCR/>
+							<MEDCOMPSP_INCR/>
+							<MEDCOMPSP_STAB>X</MEDCOMPSP_STAB>
+							<MEDCOMPSP_DECL/>
+							<MEDCOMPDOM_DECL/>
+							<MEDCOMPDOM_STAB>X</MEDCOMPDOM_STAB>
+							<MEDCOMPDOM_INCR/>
+							<MEDCOMPLP_INCR/>
+							<MEDCOMPLP_STAB/>
+							<MEDCOMPLP_DECL/>
+							<MEDLISTDOM_DECL/>
+							<MEDLISTDOM_STAB/>
+							<MEDLISTDOM_INCR/>
+							<MEDLIST2SALE_INCR/>
+							<MEDLIST2SALE_STAB>X</MEDLIST2SALE_STAB>
+							<MEDLIST2SALE_DECL/>
+							<SELLERCONC_YES>X</SELLERCONC_YES>
+							<SELLERCONC_NO/>
+							<SELLERCONC_DECL/>
+							<SELLERCONC_STAB>X</SELLERCONC_STAB>
+							<SELLERCONC_INCR/>
+							<SELLERCONC12MO_1>The observed trend in the area appears the amount of seller concessions is increasing. This appears to be in an effort to compete with the distressed sales, short sales, and REO properties in the market. Seller concessions typically range between 0 and 4%.</SELLERCONC12MO_1>
+							<REOMKTFACTOR_YES/>
+							<REOMKTFACTOR_NO>X</REOMKTFACTOR_NO>
+							<REOMKTFACTOR_1>There are some REO properties in the market area; these properties are in less than average condition and do not directly compete with the subject in this market. There were 2 non arms-length transactions that are in comparable condition as the subject observed in the prior 12 months and 1 active listing. These were not included in the analysis as the subject is an arms length sale.</REOMKTFACTOR_1>
+							<MKTCONDDATSRC_1>OCAR MLS and Okaloosa County Records</MKTCONDDATSRC_1>
+							<MKTCONDSUM_1>
+								The data shows a stable trend for inventory based on total settled and absorption rates. This is reflective of the market overall. The data also
+								shows a stable trend for the days on market of closed sales, and is supported by the active sales days on market. The median sale price as % of List Price is statically stable with variation of +/-2%. The trend for Median Comparable Sale Price has increased over the previous 12 months, with a stabilization over the past 6 months. Appraiser has marked stable as the market is stabilizing, but has made an adjustment on homes that sold over 6 months from the effective date of this appraisal.
+							</MKTCONDSUM_1>
+							<PRJPROJTYPE/>
+							<PRJPROJNAME/>
+							<PRJSETSALES_7_12MO/>
+							<PRJABSORPRT_7_12MO/>
+							<PRJACTLIST_7_12MO/>
+							<PRJSUPMOS_7_12MO/>
+							<PRJSETSALES_4_6MO/>
+							<PRJABSORPRT_4_6MO/>
+							<PRJACTLIST_4_6MO/>
+							<PRJSUPMOS_4_6MO/>
+							<PRJSETSALES_0_3MO/>
+							<PRJABSORPRT_0_3MO/>
+							<PRJACTLIST_0_3MO/>
+							<PRJSUPMOS_0_3MO/>
+							<PRJSETSALES_INCR/>
+							<PRJSETSALES_STAB/>
+							<PRJSETSALES_DECL/>
+							<PRJABSORPRT_INCR/>
+							<PRJABSORPRT_STAB/>
+							<PRJABSORPRT_DECL/>
+							<PRJACTLIST_DECL/>
+							<PRJACTLIST_STAB/>
+							<PRJACTLIST_INCR/>
+							<PRJSUPMOS_DECL/>
+							<PRJSUPMOS_STAB/>
+							<PRJSUPMOS_INCR/>
+							<PRJREOMKTFACT_YES/>
+							<PRJREOMKTFACT_NO/>
+							<PRJREOMKTFACT_1/>
+							<PRJMKTCONDSUM_1/>
+							<RECAPPRSIG_TEXT/>
+							<SIGNATURESEAL/>
+							<SIGNATURE/>
+							<SUBAPPRAISER>Ellen Walker</SUBAPPRAISER>
+							<RECAPPRCOMPANYNAME>Beach Appraisals</RECAPPRCOMPANYNAME>
+							<RECAPPRCMPADDRESS1>9123 Palm St, Suite 101, Destin, FL 32541</RECAPPRCMPADDRESS1>
+							<RECAPPRCERTLIC>RDZ123456</RECAPPRCERTLIC>
+							<RECAPPRCERTLICST>FL</RECAPPRCERTLICST>
+							<SUBAPPREMAIL>info@BeachAppraisals.com</SUBAPPREMAIL>
+							<RECSUPSIG_TEXT/>
+							<SIGNATURESEALB/>
+							<SIGNATUREB/>
+							<RECSUPNAME/>
+							<RECSUPCOMPANYNAME/>
+							<RECSUPCMPADDRESS1/>
+							<RECSUPCERTLIC/>
+							<RECSUPCERTLICST/>
+							<SUBSUPEMAIL/>
+							<FOOTER1>Form 1004MC2 - "TOTAL" appraisal software by a la mode, inc. - 1-800-ALAMODE</FOOTER1>
+						</FIELDS>
+						<FORMPHOTOS />
+						<ATTACHMENTS />
+					</FORM>
+
+
+				</FORMS>
+
+
+				<SALESCOMP>
+					<SUBJECT PROPERTYTYPE="Residential" LATITUDE="" LONGITUDE="" PHOTO="">
+						<AD_ADDR1>1004MC</AD_ADDR1>
+						<AD_ADDR2>Destin, FL 32541</AD_ADDR2>
+						<DB_CITY>Destin</DB_CITY>
+						<DB_STATE>FL</DB_STATE>
+						<DB_ZIPCODE>32541</DB_ZIPCODE>
+						<PR_SALEPR1>3,099,000</PR_SALEPR1>
+						<PU_PERGLA>568.42</PU_PERGLA>
+						<EX_DOM>174</EX_DOM>
+						<FN_CONC1>ArmLth</FN_CONC1>
+						<FN_CONC2>61,980</FN_CONC2>
+						<EX_CONCAMT>61980</EX_CONCAMT>
+						<LC_LOCAT1>B;WtrFr;Res</LC_LOCAT1>
+						<DP_LOCAT>Beneficial</DP_LOCAT>
+						<DP_LOC1>Water Front</DP_LOC1>
+						<DP_LOC2>Residential</DP_LOC2>
+						<RG_RIGHTS>Fee Simple</RG_RIGHTS>
+						<ST_SITSIZE>20,473 sf</ST_SITSIZE>
+						<ST_SITEVW>B;Wtr;</ST_SITEVW>
+						<DP_SITVW1>Beneficial</DP_SITVW1>
+						<DP_SITVW2>Water</DP_SITVW2>
+						<DA_DESAPL1>Villa</DA_DESAPL1>
+						<DA_CONSTQL>Q2</DA_CONSTQL>
+						<AG_AGYRBLT>17</AG_AGYRBLT>
+						<AG_COND1>C2</AG_COND1>
+						<RM_TOTAL>13</RM_TOTAL>
+						<RM_BED>5</RM_BED>
+						<RM_BATH>6.2</RM_BATH>
+						<SF_GLA>5,452</SF_GLA>
+						<BM_BSM1>0sf</BM_BSM1>
+						<EX_BSMSF>0</EX_BSMSF>
+						<EX_BSMFIN>0</EX_BSMFIN>
+						<EX_BSMRECRM>0</EX_BSMRECRM>
+						<EX_BSMBED>0</EX_BSMBED>
+						<EX_BSMBATH>0.0</EX_BSMBATH>
+						<EX_BSMOTHRM>0</EX_BSMOTHRM>
+						<FU_FUNCTUT>Typical/Good</FU_FUNCTUT>
+						<HC_HTCOOL>FWA/CAC</HC_HTCOOL>
+						<EE_EFFIC1>Typical</EE_EFFIC1>
+						<CR_GARPRK1>2 Car Built In</CR_GARPRK1>
+						<PF_PORPAT1>Cov Porch/Patio</PF_PORPAT1>
+						<CM_OTHR1_TEXT>Fireplace</CM_OTHR1_TEXT>
+						<BL_BLANK1>1 In, 1 Out</BL_BLANK1>
+						<CM_OTHR2_TEXT>Other Amenities</CM_OTHR2_TEXT>
+						<BL_BLANK2>Spa</BL_BLANK2>
+						<HS_PRIOR3>Okaloosa Cnty Online Rcds</HS_PRIOR3>
+						<HS_DSDATE>02/20/2013</HS_DSDATE>
+						<DH_LOCAT>B</DH_LOCAT>
+						<DH_LOC1>WtrFr</DH_LOC1>
+						<DH_LOC2>Res</DH_LOC2>
+						<DT_DAYSMKT>174</DT_DAYSMKT>
+						<DH_SITVW1>B</DH_SITVW1>
+						<DH_SITVW2>Wtr</DH_SITVW2>
+						<DB_ACTAGE>17</DB_ACTAGE>
+						<DB_EFFAGE>10</DB_EFFAGE>
+						<RM_XTOTAL>13</RM_XTOTAL>
+						<RM_XBED>5</RM_XBED>
+						<RM_XBATH>6.2</RM_XBATH>
+						<RM_FBATH>6</RM_FBATH>
+						<RM_HBATH>2</RM_HBATH>
+						<EX_BSMFBATH>0</EX_BSMFBATH>
+						<EX_BSMHBATH>0</EX_BSMHBATH>
+						<MARKETAREA>Shores of Sunny Beach</MARKETAREA>
+						<ADDRESSVALIDATED>1</ADDRESSVALIDATED>
+					</SUBJECT>
+
+					<!-- 
+		//C# will detect any xml attribute that is prefixed "VT_" and will react accordingly
+		// the VT_ prefix will NOT be included in the resulting XML.
+		!-->
+
+					<COMPS VT_ITERATEITEM="TRUE" VT_LISTSOURCE="/VALUATION_RESPONSE/SALES_COMPARISON/COMPARABLE_SALE" VT_ITERATIONBEGININDEX="1" NUM="#IterationCounter">
+						<!--LATITUDE="[RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]"/LOCATION/@LatitudeNumber"]" 
+			   LONGITUDE="Path="/VALUATION_RESPONSE/VALUATION_METHODS/SALES_COMPARISON/COMPARABLE_SALE[@PropertySequenceIdentifier=#IterationCounter/LOCATION/@LongitudeNumber PROPERTYTYPE="Residential" PHOTO="">-->
+
+						<AD_ADDR1>RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]/LOCATION/@PropertyStreetAddress"</AD_ADDR1>
+						<AD_ADDR2>RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]/LOCATION/@PropertyStreetAddress2"</AD_ADDR2>
+						<DB_CITY>RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]/LOCATION/@PropertyCity"</DB_CITY>
+						<DB_STATE>RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]/LOCATION/@PropertyState"</DB_STATE>
+						<DB_ZIPCODE>RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]/LOCATION/@PropertyPostalCode"</DB_ZIPCODE>
+						<PROX1>RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]/LOCATION/@ProximityToSubjectDescription"</PROX1>
+						<PR_SALEPR1>RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]/@PropertySalesAmount"</PR_SALEPR1>
+						<PU_PERGLA>RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]/@SalesPricePerGrossLivingAreaAmount"</PU_PERGLA>
+						<SC_SOURCE1>RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]/@DataSourceDescription"</SC_SOURCE1>
+						<EX_DATSRC1>RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]/@DataSourceVerificationDescription"</EX_DATSRC1>
+						<EX_DOM>212</EX_DOM>
+						<SC_SOURCE2>Okaloosa Cnty Appraiser Record</SC_SOURCE2>
+						<FN_CONC1>ArmLth</FN_CONC1>
+						<FN_CONC2>Conv;68750</FN_CONC2>
+						<DP_FINTYP1>Conventional</DP_FINTYP1>
+						<EX_CONCAMT>RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]/SALE_PRICE_ADJUSTMENT[@_Type="SalesConcessions"]/@_</EX_CONCAMT>
+						<FN_CONC2_ADJ>0</FN_CONC2_ADJ>
+						<DT_SALTIM1>s04/12;c01/12</DT_SALTIM1>
+						<DP_CMPTYPE>Settled sale</DP_CMPTYPE>
+						<EX_CONTKWN>X</EX_CONTKWN>
+						<EX_CONTDATE>01/12</EX_CONTDATE>
+						<EX_SETTDATE>04/12</EX_SETTDATE>
+						<DT_SALTIM1_ADJ>+55,800</DT_SALTIM1_ADJ>
+						<LC_LOCAT1>B;WtrFr;Res</LC_LOCAT1>
+						<DP_LOCAT>Beneficial</DP_LOCAT>
+						<DP_LOC1>Water Front</DP_LOC1>
+						<DP_LOC2>Residential</DP_LOC2>
+						<RG_RIGHTS>Fee Simple</RG_RIGHTS>
+						<ST_SITSIZE>20,604 sf</ST_SITSIZE>
+						<ST_SITSIZE_ADJ>0</ST_SITSIZE_ADJ>
+						<ST_SITEVW>B;Wtr;</ST_SITEVW>
+						<DP_SITVW1>Beneficial</DP_SITVW1>
+						<DP_SITVW2>Water</DP_SITVW2>
+						<DA_DESAPL1>Mediterranean</DA_DESAPL1>
+						<DA_DESAPL1_ADJ>-25,000</DA_DESAPL1_ADJ>
+						<DA_CONSTQL>Q2</DA_CONSTQL>
+						<AG_AGYRBLT>15</AG_AGYRBLT>
+						<AG_AGYRBLT_ADJ>0</AG_AGYRBLT_ADJ>
+						<AG_COND1>C2</AG_COND1>
+						<RM_TOTAL>15</RM_TOTAL>
+						<RM_BED>7</RM_BED>
+						<RM_BATH>7.0</RM_BATH>
+						<RM_TOTAL_ADJ>+2,500</RM_TOTAL_ADJ>
+						<SF_GLA>5,722</SF_GLA>
+						<SF_GLA_ADJ>0</SF_GLA_ADJ>
+						<BM_BSM1>0sf</BM_BSM1>
+						<EX_BSMSF>0</EX_BSMSF>
+						<EX_BSMFIN>0</EX_BSMFIN>
+						<EX_BSMRECRM>0</EX_BSMRECRM>
+						<EX_BSMBED>0</EX_BSMBED>
+						<EX_BSMBATH>0.0</EX_BSMBATH>
+						<EX_BSMOTHRM>0</EX_BSMOTHRM>
+						<FU_FUNCTUT>Typical/Good</FU_FUNCTUT>
+						<HC_HTCOOL>FWA/CAC</HC_HTCOOL>
+						<EE_EFFIC1>Typical</EE_EFFIC1>
+						<CR_GARPRK1>2 Car A.Garage</CR_GARPRK1>
+						<CR_GARPRK1_ADJ>0</CR_GARPRK1_ADJ>
+						<PF_PORPAT1>Cov Porch/Patio</PF_PORPAT1>
+						<BL_BLANK1>2 Indoor</BL_BLANK1>
+						<BL_BLANK1_ADJ>0</BL_BLANK1_ADJ>
+						<BL_BLANK2>Spa</BL_BLANK2>
+						<CHECKPOS_ADJ>X</CHECKPOS_ADJ>
+						<NETADJ_ADJ>33,300</NETADJ_ADJ>
+						<NETADJPCT_ADJ>1.1</NETADJPCT_ADJ>
+						<GRSADJPCT_ADJ>2.8</GRSADJPCT_ADJ>
+						<LOCATIONPRCADJ> Path="/VALUATION_RESPONSE/COMPARABLE_SALE/[COMP#]/ADJUSTEMNTS/", Attribute="_Type", ConditionalAttributeValue="Location" </LOCATIONPRCADJ>
+						<QUALITYADJ> Path="/VALUATION_RESPONSE/COMPARABLE_SALE[COMP#]/ADJUSTEMNTS/[@_Type=Quality][@Description]" </QUALITYADJ>
+						<ADJSALEPRC_ADJ>3,019,300</ADJSALEPRC_ADJ>
+						<HS_PRIOR3>Okaloosa Cnty Online Rcds</HS_PRIOR3>
+						<HS_DSDATE>02/20/2013</HS_DSDATE>
+						<DH_FINTYP1>Conv</DH_FINTYP1>
+						<DH_CMPTYPE>s</DH_CMPTYPE>
+						<DH_LOCAT>B</DH_LOCAT>
+						<DH_LOC1>WtrFr</DH_LOC1>
+						<DH_LOC2>Res</DH_LOC2>
+						<DH_SITVW1>B</DH_SITVW1>
+						<DH_SITVW2>Wtr</DH_SITVW2>
+						<RM_XTOTAL>15</RM_XTOTAL>
+						<RM_XBED>7</RM_XBED>
+						<RM_XBATH>7.0</RM_XBATH>
+						<RM_FBATH>7</RM_FBATH>
+						<RM_FBATH_ADJ>-17,500</RM_FBATH_ADJ>
+						<RM_HBATH>0</RM_HBATH>
+						<RM_HBATH_ADJ>+20,000</RM_HBATH_ADJ>
+						<EX_BSMFBATH>0</EX_BSMFBATH>
+						<EX_BSMHBATH>0</EX_BSMHBATH>
+						<LATITUDE>30.3804601728916</LATITUDE>
+						<LONGITUDE>-86.4061188697815</LONGITUDE>
+						<GEOMATCH>1</GEOMATCH>
+						<MARKETAREA>Sunny Beach Isle</MARKETAREA>
+						<ADDRESSVALIDATED>1</ADDRESSVALIDATED>
+					</COMPS>
+
+
+					<COMPS NUM="2" PROPERTYTYPE="Residential" LATITUDE="30.3813546895981" LONGITUDE="-86.4137873053551" PHOTO="">
+						<AD_ADDR1>4772 Ocean Blvd</AD_ADDR1>
+						<AD_ADDR2>Destin, FL 32541</AD_ADDR2>
+						<DB_CITY>Destin</DB_CITY>
+						<DB_STATE>FL</DB_STATE>
+						<DB_ZIPCODE>32541</DB_ZIPCODE>
+						<PROX1>0.09 miles W</PROX1>
+						<PR_SALEPR1>2,500,000</PR_SALEPR1>
+						<PU_PERGLA>489.05</PU_PERGLA>
+						<SC_SOURCE1>OCAR# 58398;DOM 176</SC_SOURCE1>
+						<EX_DATSRC1>OCAR# 58398</EX_DATSRC1>
+						<EX_DOM>176</EX_DOM>
+						<SC_SOURCE2>Okaloosa Cnty Appraiser Record</SC_SOURCE2>
+						<FN_CONC1>ArmLth</FN_CONC1>
+						<FN_CONC2>Conv;100000</FN_CONC2>
+						<DP_FINTYP1>Conventional</DP_FINTYP1>
+						<EX_CONCAMT>100000</EX_CONCAMT>
+						<FN_CONC2_ADJ>0</FN_CONC2_ADJ>
+						<DT_SALTIM1>s02/13;c01/13</DT_SALTIM1>
+						<DP_CMPTYPE>Settled sale</DP_CMPTYPE>
+						<EX_CONTKWN>X</EX_CONTKWN>
+						<EX_CONTDATE>01/13</EX_CONTDATE>
+						<EX_SETTDATE>02/13</EX_SETTDATE>
+						<LC_LOCAT1>B;WtrFr;Res</LC_LOCAT1>
+						<DP_LOCAT>Beneficial</DP_LOCAT>
+						<DP_LOC1>Water Front</DP_LOC1>
+						<DP_LOC2>Residential</DP_LOC2>
+						<RG_RIGHTS>Fee Simple</RG_RIGHTS>
+						<ST_SITSIZE>16,117 sf</ST_SITSIZE>
+						<ST_SITSIZE_ADJ>+108,900</ST_SITSIZE_ADJ>
+						<ST_SITEVW>B;Wtr;</ST_SITEVW>
+						<DP_SITVW1>Beneficial</DP_SITVW1>
+						<DP_SITVW2>Water</DP_SITVW2>
+						<DA_DESAPL1>Villa</DA_DESAPL1>
+						<DA_CONSTQL>Q2</DA_CONSTQL>
+						<AG_AGYRBLT>17</AG_AGYRBLT>
+						<AG_COND1>C2</AG_COND1>
+						<RM_TOTAL>13</RM_TOTAL>
+						<RM_BED>5</RM_BED>
+						<RM_BATH>6.1</RM_BATH>
+						<RM_TOTAL_ADJ>+10,000</RM_TOTAL_ADJ>
+						<SF_GLA>5,112</SF_GLA>
+						<SF_GLA_ADJ>+116,393</SF_GLA_ADJ>
+						<BM_BSM1>0sf</BM_BSM1>
+						<EX_BSMSF>0</EX_BSMSF>
+						<EX_BSMFIN>0</EX_BSMFIN>
+						<EX_BSMRECRM>0</EX_BSMRECRM>
+						<EX_BSMBED>0</EX_BSMBED>
+						<EX_BSMBATH>0.0</EX_BSMBATH>
+						<EX_BSMOTHRM>0</EX_BSMOTHRM>
+						<FU_FUNCTUT>Typical/Good</FU_FUNCTUT>
+						<HC_HTCOOL>FWA/CAC</HC_HTCOOL>
+						<EE_EFFIC1>Typical</EE_EFFIC1>
+						<CR_GARPRK1>2 Car D.Garage</CR_GARPRK1>
+						<CR_GARPRK1_ADJ>0</CR_GARPRK1_ADJ>
+						<PF_PORPAT1>Cov Porch/Patio</PF_PORPAT1>
+						<BL_BLANK1>2 Indoor</BL_BLANK1>
+						<BL_BLANK1_ADJ>0</BL_BLANK1_ADJ>
+						<BL_BLANK2>Pool</BL_BLANK2>
+						<BL_BLANK2_ADJ>-10,000</BL_BLANK2_ADJ>
+						<CHECKPOS_ADJ>X</CHECKPOS_ADJ>
+						<NETADJ_ADJ>225,293</NETADJ_ADJ>
+						<NETADJPCT_ADJ>9.0</NETADJPCT_ADJ>
+						<GRSADJPCT_ADJ>9.8</GRSADJPCT_ADJ>
+						<ADJSALEPRC_ADJ>2,725,293</ADJSALEPRC_ADJ>
+						<HS_PRIOR3>Okaloosa Cnty Online Rcds</HS_PRIOR3>
+						<HS_DSDATE>02/20/2013</HS_DSDATE>
+						<DH_FINTYP1>Conv</DH_FINTYP1>
+						<DH_CMPTYPE>s</DH_CMPTYPE>
+						<DH_LOCAT>B</DH_LOCAT>
+						<DH_LOC1>WtrFr</DH_LOC1>
+						<DH_LOC2>Res</DH_LOC2>
+						<DH_SITVW1>B</DH_SITVW1>
+						<DH_SITVW2>Wtr</DH_SITVW2>
+						<RM_XTOTAL>13</RM_XTOTAL>
+						<RM_XBED>5</RM_XBED>
+						<RM_XBATH>6.1</RM_XBATH>
+						<RM_FBATH>6</RM_FBATH>
+						<RM_HBATH>1</RM_HBATH>
+						<RM_HBATH_ADJ>+10,000</RM_HBATH_ADJ>
+						<EX_BSMFBATH>0</EX_BSMFBATH>
+						<EX_BSMHBATH>0</EX_BSMHBATH>
+						<LATITUDE>30.3813546895981</LATITUDE>
+						<LONGITUDE>-86.4137873053551</LONGITUDE>
+						<GEOMATCH>1</GEOMATCH>
+						<MARKETAREA>Blue Tide Way</MARKETAREA>
+						<ADDRESSVALIDATED>1</ADDRESSVALIDATED>
+					</COMPS>
+					<COMPS NUM="3" PROPERTYTYPE="Residential" LATITUDE="30.3797283172607" LONGITUDE="-86.401252746582" PHOTO="">
+						<AD_ADDR1>3462 Scenic Highway 98</AD_ADDR1>
+						<AD_ADDR2>Destin, FL 32541</AD_ADDR2>
+						<DB_CITY>Destin</DB_CITY>
+						<DB_STATE>FL</DB_STATE>
+						<DB_ZIPCODE>32541</DB_ZIPCODE>
+						<PROX1>0.67 miles E</PROX1>
+						<PR_SALEPR1>3,750,000</PR_SALEPR1>
+						<PU_PERGLA>605.52</PU_PERGLA>
+						<SC_SOURCE1>OCAR#582584;DOM 123</SC_SOURCE1>
+						<EX_DATSRC1>OCAR#582584</EX_DATSRC1>
+						<EX_DOM>123</EX_DOM>
+						<SC_SOURCE2>Okaloosa Cnty Appraiser Record</SC_SOURCE2>
+						<FN_CONC1>ArmLth</FN_CONC1>
+						<FN_CONC2>Conv;75000</FN_CONC2>
+						<DP_FINTYP1>Conventional</DP_FINTYP1>
+						<EX_CONCAMT>75000</EX_CONCAMT>
+						<FN_CONC2_ADJ>0</FN_CONC2_ADJ>
+						<DT_SALTIM1>s07/12;c05/12</DT_SALTIM1>
+						<DP_CMPTYPE>Settled sale</DP_CMPTYPE>
+						<EX_CONTKWN>X</EX_CONTKWN>
+						<EX_CONTDATE>05/12</EX_CONTDATE>
+						<EX_SETTDATE>07/12</EX_SETTDATE>
+						<DT_SALTIM1_ADJ>+51,000</DT_SALTIM1_ADJ>
+						<LC_LOCAT1>B;WtrFr;Res</LC_LOCAT1>
+						<DP_LOCAT>Beneficial</DP_LOCAT>
+						<DP_LOC1>Water Front</DP_LOC1>
+						<DP_LOC2>Residential</DP_LOC2>
+						<RG_RIGHTS>Fee Simple</RG_RIGHTS>
+						<ST_SITSIZE>20777 sf</ST_SITSIZE>
+						<ST_SITSIZE_ADJ>0</ST_SITSIZE_ADJ>
+						<ST_SITEVW>B;Wtr;</ST_SITEVW>
+						<DP_SITVW1>Beneficial</DP_SITVW1>
+						<DP_SITVW2>Water</DP_SITVW2>
+						<DA_DESAPL1>Villa</DA_DESAPL1>
+						<DA_CONSTQL>Q2</DA_CONSTQL>
+						<AG_AGYRBLT>17</AG_AGYRBLT>
+						<AG_COND1>C2</AG_COND1>
+						<RM_TOTAL>14</RM_TOTAL>
+						<RM_BED>7</RM_BED>
+						<RM_BATH>7.1</RM_BATH>
+						<RM_TOTAL_ADJ>-7,500</RM_TOTAL_ADJ>
+						<SF_GLA>6,193</SF_GLA>
+						<SF_GLA_ADJ>-314,084</SF_GLA_ADJ>
+						<BM_BSM1>0sf</BM_BSM1>
+						<EX_BSMSF>0</EX_BSMSF>
+						<EX_BSMFIN>0</EX_BSMFIN>
+						<EX_BSMRECRM>0</EX_BSMRECRM>
+						<EX_BSMBED>0</EX_BSMBED>
+						<EX_BSMBATH>0.0</EX_BSMBATH>
+						<EX_BSMOTHRM>0</EX_BSMOTHRM>
+						<FU_FUNCTUT>Typical/Good</FU_FUNCTUT>
+						<HC_HTCOOL>FWA/CAC</HC_HTCOOL>
+						<EE_EFFIC1>Typical</EE_EFFIC1>
+						<CR_GARPRK1>3 Car A.Garage</CR_GARPRK1>
+						<CR_GARPRK1_ADJ>-12,500</CR_GARPRK1_ADJ>
+						<PF_PORPAT1>Cov Porch/Patio</PF_PORPAT1>
+						<BL_BLANK1>1 In, 1 Out</BL_BLANK1>
+						<BL_BLANK2>Pool &amp; Spa</BL_BLANK2>
+						<BL_BLANK2_ADJ>-20,000</BL_BLANK2_ADJ>
+						<CHECKNEG_ADJ>X</CHECKNEG_ADJ>
+						<NETADJ_ADJ>-303,084</NETADJ_ADJ>
+						<NETADJPCT_ADJ>8.1</NETADJPCT_ADJ>
+						<GRSADJPCT_ADJ>10.8</GRSADJPCT_ADJ>
+						<ADJSALEPRC_ADJ>3,446,916</ADJSALEPRC_ADJ>
+						<HS_PRIOR3>Okaloosa Cnty Online Rcds</HS_PRIOR3>
+						<HS_DSDATE>02/20/2013</HS_DSDATE>
+						<DH_FINTYP1>Conv</DH_FINTYP1>
+						<DH_CMPTYPE>s</DH_CMPTYPE>
+						<DH_LOCAT>B</DH_LOCAT>
+						<DH_LOC1>WtrFr</DH_LOC1>
+						<DH_LOC2>Res</DH_LOC2>
+						<DH_SITVW1>B</DH_SITVW1>
+						<DH_SITVW2>Wtr</DH_SITVW2>
+						<RM_XTOTAL>14</RM_XTOTAL>
+						<RM_XBED>7</RM_XBED>
+						<RM_XBATH>7.1</RM_XBATH>
+						<RM_FBATH>7</RM_FBATH>
+						<RM_FBATH_ADJ>-17,500</RM_FBATH_ADJ>
+						<RM_HBATH>1</RM_HBATH>
+						<RM_HBATH_ADJ>+10,000</RM_HBATH_ADJ>
+						<EX_BSMFBATH>0</EX_BSMFBATH>
+						<EX_BSMHBATH>0</EX_BSMHBATH>
+						<LATITUDE>30.3797283172607</LATITUDE>
+						<LONGITUDE>-86.401252746582</LONGITUDE>
+						<GEOMATCH>1</GEOMATCH>
+						<MARKETAREA>Shores of Sunny Beach</MARKETAREA>
+						<ADDRESSVALIDATED>1</ADDRESSVALIDATED>
+					</COMPS>
+				</SALESCOMP>
+				<!--<PHOTOS>
+					<SUBJECTPHOTOS />
+					<SALESCOMPPHOTO VT_ITERATEITEM="TRUE" VT_LISTSOURCE="/VALUATION_RESPONSE/SALES_COMPARISON/COMPARABLE_SALE" VT_ITERATIONBEGININDEX="1" NUM="#IterationCounter" VT_DESERIALSOURCENODE="/image/document" VT_DESERILAIZEFILENAME="/image@[name]" TYPE="[RelativePath="[@PropertySequenceIdentifier="#IterationCounter"]>
+						<SALESCOMPPHOTO NUM="1" ID="1" TYPE="FRONT">
+							<FILENAME>/image@[name]</FILENAME>
+							<FILETYPE>/comp/photo/_filetype</FILETYPE>
+						</SALESCOMPPHOTO>
+
+					</SALESCOMPPHOTO>
+					<LISTINGPHOTOS />
+					<RENTALPHOTOS />
+					<SKETCHPHOTOS />
+					<MAPPHOTOS />
+					<ADDITIONALPHOTOS>
+						<PHOTO NUM="1">
+							<FILENAME>CustomPage.jpg</FILENAME>
+							<FILETYPE>JPEG</FILETYPE>
+						</PHOTO>
+					</ADDITIONALPHOTOS>
+				</PHOTOS>-->
+				<ADDENDA />
+				<SIGNATURE />
+			</REPORT>
+
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>

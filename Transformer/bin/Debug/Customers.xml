@@ -1,0 +1,205 @@
+﻿<?xml version='1.0'?>
+<Customers>
+  <Customer>
+    <CustomerID>ALFKI</CustomerID>
+    <CompanyName>Alfreds Futterkiste</CompanyName>
+    <ContactName>Maria </ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Obere Str. 57</Address>
+    <City>Boise</City>
+    <PostalCode>12209</PostalCode>
+    <Country>Germany</Country>
+    <Phone>030-0074321</Phone>
+    <Fax>030-0076545</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>ANATR</CustomerID>
+    <CompanyName>Ana Trujillo Emparedados y helados</CompanyName>
+    <ContactName>Ana Trujillo</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Avda. de la Constitución 2222</Address>
+    <City>México D.F.</City>
+    <PostalCode>05021</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 555-4729</Phone>
+    <Fax>(5) 555-3745</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>ANTON</CustomerID>
+    <CompanyName>Antonio Moreno Taquería</CompanyName>
+    <ContactName>Antonio Moreno</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Mataderos  2312</Address>
+    <City>Montréal</City>
+    <PostalCode>05023</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 555-3932</Phone>
+  </Customer>
+  <Customer>
+    <CustomerID>AROUT</CustomerID>
+    <CompanyName>Around the Horn</CompanyName>
+    <ContactName>Thomas Hardy</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>120 Hanover Sq.</Address>
+    <City>Mannheim</City>
+    <PostalCode>WA1 1DP</PostalCode>
+    <Country>Sweden</Country>
+    <Phone>(171) 555-7788</Phone>
+    <Fax>(171) 555-6750</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BERGS</CustomerID>
+    <CompanyName>Berglunds snabbköp</CompanyName>
+    <ContactName>Christina Berglund</ContactName>
+    <ContactTitle>Order Administrator</ContactTitle>
+    <Address>Berguvsvägen  8</Address>
+    <City>Luleå</City>
+    <PostalCode>S-958 22</PostalCode>
+    <Country>Sweden</Country>
+    <Phone>0921-12 34 65</Phone>
+    <Fax>0921-12 34 67</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BLAUS</CustomerID>
+    <CompanyName>Blauer See Delikatessen</CompanyName>
+    <ContactName>Hanna Moos</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Forsterstr. 57</Address>
+    <City>Mannheim</City>
+    <PostalCode>68306</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0621-08460</Phone>
+    <Fax>0621-08924</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BLONP</CustomerID>
+    <CompanyName>Blondesddsl père et fils</CompanyName>
+    <ContactName>Frédérique Citeaux</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>24, place Kléber</Address>
+    <City>Strasbourg</City>
+    <PostalCode>67000</PostalCode>
+    <Country>France</Country>
+    <Phone>88.60.15.31</Phone>
+    <Fax>88.60.15.32</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BOLID</CustomerID>
+    <CompanyName>Bólido Comidas preparadas</CompanyName>
+    <ContactName>Martín Sommer</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>C/ Araquil, 67</Address>
+    <City>Madrid</City>
+    <PostalCode>28023</PostalCode>
+    <Country>Spain</Country>
+    <Phone>(91) 555 22 82</Phone>
+    <Fax>(91) 555 91 99</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BONAP</CustomerID>
+    <CompanyName>Bon app'</CompanyName>
+    <ContactName>Laurence Lebihan</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>12, rue des Bouchers</Address>
+    <City>Marseille</City>
+    <PostalCode>13008</PostalCode>
+    <Country>France</Country>
+    <Phone>91.24.45.40</Phone>
+    <Fax>91.24.45.41</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BOTTM</CustomerID>
+    <CompanyName>Bottom-Dollar Markets</CompanyName>
+    <ContactName>Elizabeth Lincoln</ContactName>
+    <ContactTitle>Accounting Manager</ContactTitle>
+    <Address>23 Tsawassen Blvd.</Address>
+    <City>Tsawassen</City>
+    <Region>BC</Region>
+    <PostalCode>T2F 8M4</PostalCode>
+    <Country>Canada</Country>
+    <Phone>(604) 555-4729</Phone>
+    <Fax>(604) 555-3745</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BSBEV</CustomerID>
+    <CompanyName>B's Beverages</CompanyName>
+    <ContactName>Victoria Ashworth</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Fauntleroy Circus</Address>
+    <City>London</City>
+    <PostalCode>EC2 5NT</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-1212</Phone>
+  </Customer>
+  <Customer>
+    <CustomerID>CACTU</CustomerID>
+    <CompanyName>Cactus Comidas para llevar</CompanyName>
+    <ContactName>Patricio Simpson</ContactName>
+    <ContactTitle>Sales Agent</ContactTitle>
+    <Address>Cerrito 333</Address>
+    <City>Buenos Aires</City>
+    <PostalCode>1010</PostalCode>
+    <Country>Argentina</Country>
+    <Phone>(1) 135-5555</Phone>
+    <Fax>(1) 135-4892</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>CENTC</CustomerID>
+    <CompanyName>Centro comercial Moctezuma</CompanyName>
+    <ContactName>Francisco Chang</ContactName>
+    <ContactTitle>Marketing Manager</ContactTitle>
+    <Address>Sierras de Granada 9993</Address>
+    <City>México D.F.</City>
+    <PostalCode>05022</PostalCode>
+    <Country>Mexico</Country>
+    <Phone>(5) 555-3392</Phone>
+    <Fax>(5) 555-7293</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>CHOPS</CustomerID>
+    <CompanyName>Chop-suey Chinese</CompanyName>
+    <ContactName>Yang Wang</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>Hauptstr. 29</Address>
+    <City>Bern</City>
+    <PostalCode>3012</PostalCode>
+    <Country>Switzerland</Country>
+    <Phone>0452-076545</Phone>
+  </Customer>
+  <Customer>
+    <CustomerID>COMMI</CustomerID>
+    <CompanyName>Comércio Mineiro</CompanyName>
+    <ContactName>Pedro Afonso</ContactName>
+    <ContactTitle>Sales Associate</ContactTitle>
+    <Address>Av. dos Lusíadas, 23</Address>
+    <City>Sao Paulo</City>
+    <Region>SP</Region>
+    <PostalCode>05432-043</PostalCode>
+    <Country>Brazil</Country>
+    <Phone>(11) 555-7647</Phone>
+  </Customer>
+  <Customer>
+    <CustomerID>CONSH</CustomerID>
+    <CompanyName>Consolidated Holdings</CompanyName>
+    <ContactName>Elizabeth Brown</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>Berkeley Gardens 12  Brewery</Address>
+    <City>London</City>
+    <PostalCode>WX1 6LT</PostalCode>
+    <Country>UK</Country>
+    <Phone>(171) 555-2282</Phone>
+    <Fax>(171) 555-9199</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>DRACD</CustomerID>
+    <CompanyName>Drachenblut Delikatessen</CompanyName>
+    <ContactName>Sven Ottlieb</ContactName>
+    <ContactTitle>Order Administrator</ContactTitle>
+    <Address>Walserweg 21</Address>
+    <City>Aachen</City>
+    <PostalCode>52066</PostalCode>
+    <Country>Germany</Country>
+    <Phone>0241-039123</Phone>
+    <Fax>0241-059428</Fax>
+  </Customer>
+</Customers>
